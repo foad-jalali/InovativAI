@@ -1,4 +1,5 @@
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -8,18 +9,26 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-white rounded-md flex items-center justify-center">
-                <span className="text-black font-bold text-lg">R</span>
-              </div>
-              <span className="font-bold text-xl text-white">Radison</span>
+              <Image width={50} height={50} src="/logo.png" alt="logo" />
+              <span className="font-bold text-xl text-white">InovativAI</span>
             </Link>
             <p className="text-gray-400 text-sm mb-6">
-              Experience the future of business with intelligent, scalable automation solutions tailored to your needs.
+              Experience the future of business with intelligent, scalable
+              automation solutions tailored to your needs.
             </p>
             <div className="flex space-x-4">
               {/* Social Icons */}
-              <Link href="#" aria-label="Facebook" className="text-gray-400 hover:text-white transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <Link
+                href="#"
+                aria-label="Facebook"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path
                     fillRule="evenodd"
                     clipRule="evenodd"
@@ -27,14 +36,25 @@ export default function Footer() {
                   />
                 </svg>
               </Link>
-              <Link href="#" aria-label="Twitter" className="text-gray-400 hover:text-white transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <Link
+                href="#"
+                aria-label="Twitter"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
+                <svg
+                  className="w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                 </svg>
               </Link>
-              <Link href="#" aria-label="Instagram" className="text-gray-400 hover:text-white transition-colors">
-                
-              </Link>
+              <Link
+                href="#"
+                aria-label="Instagram"
+                className="text-gray-400 hover:text-white transition-colors"
+              ></Link>
             </div>
           </div>
 
@@ -43,16 +63,24 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link href="/" className="hover:text-white">Home</Link>
+                <Link href="/" className="hover:text-white">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link href="/about-us" className="hover:text-white">About Us</Link>
+                <Link href="/about-us" className="hover:text-white">
+                  About Us
+                </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-white">Blog</Link>
+                <Link href="/blog" className="hover:text-white">
+                  Blog
+                </Link>
               </li>
               <li>
-                <Link href="/contact-us" className="hover:text-white">Contact Us</Link>
+                <Link href="/contact-us" className="hover:text-white">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -62,16 +90,36 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Solutions</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link href="/solutions/ai-and-data-solution" className="hover:text-white">AI & Data Solutions</Link>
+                <Link
+                  href="/solutions/ai-and-data-solution"
+                  className="hover:text-white"
+                >
+                  AI & Data Solutions
+                </Link>
               </li>
               <li>
-                <Link href="/solutions/software-engineering-and-development" className="hover:text-white">Software Engineering & Development</Link>
+                <Link
+                  href="/solutions/software-engineering-and-development"
+                  className="hover:text-white"
+                >
+                  Software Engineering & Development
+                </Link>
               </li>
               <li>
-                <Link href="/solutions/devops-and-project-delivery" className="hover:text-white">DevOps & Project Delivery</Link>
+                <Link
+                  href="/solutions/devops-and-project-delivery"
+                  className="hover:text-white"
+                >
+                  DevOps & Project Delivery
+                </Link>
               </li>
               <li>
-                <Link href="/solutions/cloud-and-infrastructure-performance" className="hover:text-white">Cloud & Infrastructure</Link>
+                <Link
+                  href="/solutions/cloud-and-infrastructure-performance"
+                  className="hover:text-white"
+                >
+                  Cloud & Infrastructure
+                </Link>
               </li>
             </ul>
           </div>
@@ -79,17 +127,21 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
-            <p className="text-gray-400 text-sm mb-2">123 Innovation Drive, Tech City</p>
-            <p className="text-gray-400 text-sm mb-2">Email: info@inovativai.com</p>
+            <p className="text-gray-400 text-sm mb-2">
+              123 Innovation Drive, Tech City
+            </p>
+            <p className="text-gray-400 text-sm mb-2">
+              Email: info@inovativai.com
+            </p>
             <p className="text-gray-400 text-sm">Phone: +44 1234 567890</p>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="mt-12 border-t border-white/10 pt-6 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} InovativAi. All rights reserved.
+          © {new Date().getFullYear()} InovativAI. All rights reserved.
         </div>
       </div>
     </footer>
-  )
+  );
 }

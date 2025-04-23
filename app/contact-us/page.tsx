@@ -1,5 +1,5 @@
-import HeroSection from "@/components/hero-section"
-import SectionHeading from "@/components/section-heading"
+import HeroSection from "@/components/hero-section";
+import SectionHeading from "@/components/section-heading";
 
 export default function ContactUsPage() {
   return (
@@ -10,7 +10,7 @@ export default function ContactUsPage() {
         primaryButtonText="Call Us"
         primaryButtonLink="tel:+1234567890"
         secondaryButtonText="Email Us"
-        secondaryButtonLink="mailto:info@radison.com"
+        secondaryButtonLink="mailto:info@InovativAI.com"
         showLogos={false}
       />
 
@@ -27,7 +27,10 @@ export default function ContactUsPage() {
               <form className="grid gap-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium mb-2">
+                    <label
+                      htmlFor="firstName"
+                      className="block text-sm font-medium mb-2"
+                    >
                       First Name
                     </label>
                     <input
@@ -38,7 +41,10 @@ export default function ContactUsPage() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium mb-2">
+                    <label
+                      htmlFor="lastName"
+                      className="block text-sm font-medium mb-2"
+                    >
                       Last Name
                     </label>
                     <input
@@ -51,7 +57,10 @@ export default function ContactUsPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium mb-2"
+                  >
                     Email
                   </label>
                   <input
@@ -63,7 +72,10 @@ export default function ContactUsPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
+                  <label
+                    htmlFor="message"
+                    className="block text-sm font-medium mb-2"
+                  >
                     Message
                   </label>
                   <textarea
@@ -130,7 +142,7 @@ export default function ContactUsPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                    <p className="text-gray-300">info@radison.com</p>
+                    <p className="text-gray-300">info@InovativAI.com</p>
                   </div>
                 </div>
 
@@ -174,5 +186,5 @@ export default function ContactUsPage() {
         </div>
       </section>
     </>
-  )
+  );
 }

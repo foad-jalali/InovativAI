@@ -1,33 +1,33 @@
-"use client"
+"use client";
 
-import { useEffect } from "react"
-import HeroSection from "@/components/hero-section"
-import FeatureSection from "@/components/feature-section"
-import SectionHeading from "@/components/section-heading"
-import Link from "next/link"
+import { useEffect } from "react";
+import HeroSection from "@/components/hero-section";
+import FeatureSection from "@/components/feature-section";
+import SectionHeading from "@/components/section-heading";
+import Link from "next/link";
 
 export default function CloudInfrastructurePage() {
   // Handle smooth scrolling for anchor links
   useEffect(() => {
     const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement
-      const anchor = target.closest("a")
+      const target = e.target as HTMLElement;
+      const anchor = target.closest("a");
 
       if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault()
-        const element = document.querySelector(anchor.hash)
+        e.preventDefault();
+        const element = document.querySelector(anchor.hash);
         if (element) {
           window.scrollTo({
             top: element.getBoundingClientRect().top + window.scrollY - 100,
             behavior: "smooth",
-          })
+          });
         }
       }
-    }
+    };
 
-    document.addEventListener("click", handleAnchorClick)
-    return () => document.removeEventListener("click", handleAnchorClick)
-  }, [])
+    document.addEventListener("click", handleAnchorClick);
+    return () => document.removeEventListener("click", handleAnchorClick);
+  }, []);
 
   return (
     <>
@@ -51,7 +51,7 @@ Empower your business with on-demand infrastructure and global reach."
 
           <FeatureSection
             title="Cloud Migration & Optimization"
-            description="Cloud computing enables flexible, on-demand access to computing resources. At InovativAi, we offer cloud solutions that support migration, architecture planning, and cloud-native development. Our focus is on helping businesses adopt the cloud in a way that improves scalability, reduces operational costs, and increases agility.
+            description="Cloud computing enables flexible, on-demand access to computing resources. At InovativAI, we offer cloud solutions that support migration, architecture planning, and cloud-native development. Our focus is on helping businesses adopt the cloud in a way that improves scalability, reduces operational costs, and increases agility.
 We work across public, private, and hybrid environments, providing strategies for efficient cloud deployment and management. Whether starting from scratch or optimizing existing cloud systems, our solutions ensure performance, security, and alignment with business goals.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -62,7 +62,10 @@ We work across public, private, and hybrid environments, providing strategies fo
         </div>
       </section>
 
-      <section id="ai-cloud-and-data-center-solutions" className="section-padding pt-32">
+      <section
+        id="ai-cloud-and-data-center-solutions"
+        className="section-padding pt-32"
+      >
         <div className="container-custom">
           <SectionHeading
             title="AI, Cloud, and Data Center Solutions"
@@ -72,7 +75,7 @@ Drive agility, intelligence, and resilience across your IT ecosystem."
 
           <FeatureSection
             title="AI-Optimized Infrastructure"
-            description="AI, cloud, and data center technologies are increasingly interconnected. At InovativAi, we design integrated solutions that bring these elements together to support smart, data-driven operations. Our strategies ensure seamless data flow, compute optimization, and AI readiness across all platforms.
+            description="AI, cloud, and data center technologies are increasingly interconnected. At InovativAI, we design integrated solutions that bring these elements together to support smart, data-driven operations. Our strategies ensure seamless data flow, compute optimization, and AI readiness across all platforms.
 We help businesses build AI-capable environments that scale with demand. By aligning infrastructure with machine learning and analytics workloads, we ensure that data and applications run efficiently and securely.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -84,7 +87,10 @@ We help businesses build AI-capable environments that scale with demand. By alig
         </div>
       </section>
 
-      <section id="data-center-design-and-implementation" className="section-padding pt-32">
+      <section
+        id="data-center-design-and-implementation"
+        className="section-padding pt-32"
+      >
         <div className="container-custom">
           <SectionHeading
             title="Data Center Design and Implementation"
@@ -94,7 +100,7 @@ Future-ready architecture, optimized for power, cooling, and scalability."
 
           <FeatureSection
             title="Modern Data Center Architecture"
-            description="Modern data centers must support high availability, energy efficiency, and future scalability. InovativAi offers data center design and implementation solutions that align with the specific needs of each business. From layout and power management to cooling and network infrastructure, we provide complete design strategies.
+            description="Modern data centers must support high availability, energy efficiency, and future scalability. InovativAI offers data center design and implementation solutions that align with the specific needs of each business. From layout and power management to cooling and network infrastructure, we provide complete design strategies.
 Our implementation approach ensures minimal downtime and a smooth transition. We focus on reliability, performance, and operational efficiency, creating data centers that support both traditional workloads and modern digital services.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -115,7 +121,7 @@ Built for speed, precision, and enterprise-grade performance."
 
           <FeatureSection
             title="High-Performance Computing Hardware"
-            description="GPU and AI hardware are essential for accelerating high-compute tasks such as machine learning, deep learning, and large-scale data processing. At InovativAi, we help businesses design infrastructure strategies that include the right hardware stack for their AI goals.
+            description="GPU and AI hardware are essential for accelerating high-compute tasks such as machine learning, deep learning, and large-scale data processing. At InovativAI, we help businesses design infrastructure strategies that include the right hardware stack for their AI goals.
 We advise on deployment, scalability, and workload optimization using cutting-edge GPU and AI accelerators. Our solutions ensure that hardware investments are aligned with performance needs and long-term business objectives.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -137,7 +143,7 @@ Maximize computational power for research, analytics, and AI."
 
           <FeatureSection
             title="Scalable HPC Solutions"
-            description="High-Performance Computing (HPC) supports complex simulations, modeling, and real-time analytics. InovativAi delivers HPC solutions that combine processing power, data throughput, and reliability to meet the most demanding workloads.
+            description="High-Performance Computing (HPC) supports complex simulations, modeling, and real-time analytics. InovativAI delivers HPC solutions that combine processing power, data throughput, and reliability to meet the most demanding workloads.
 Our team provides end-to-end strategies, including infrastructure planning, workload management, and system optimization. These solutions are ideal for research institutions, financial modeling, and any business requiring high-speed computing resources.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -155,7 +161,10 @@ Our team provides end-to-end strategies, including infrastructure planning, work
             subtitle="Contact our team today to discuss how our Cloud, Infrastructure & Performance services can help you achieve your goals."
           />
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
+          <div
+            className="flex flex-col sm:flex-row justify-center items-center gap-4"
+            data-aos="fade-up"
+          >
             <Link href="/contact-us" className="btn-primary">
               Contact Sales
               <svg
@@ -165,7 +174,12 @@ Our team provides end-to-end strategies, including infrastructure planning, work
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
               </svg>
             </Link>
 
@@ -176,5 +190,5 @@ Our team provides end-to-end strategies, including infrastructure planning, work
         </div>
       </section>
     </>
-  )
+  );
 }

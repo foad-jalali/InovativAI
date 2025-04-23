@@ -1,14 +1,14 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import HeroSection from "@/components/hero-section"
-import SectionHeading from "@/components/section-heading"
+import { useState } from "react";
+import HeroSection from "@/components/hero-section";
+import SectionHeading from "@/components/section-heading";
 
 export default function FaqPage() {
   // Sample FAQ items
   const faqItems = [
     {
-      question: "What is Radison?",
+      question: "What is InovativAI?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
@@ -18,7 +18,7 @@ export default function FaqPage() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
     {
-      question: "What industries does Radison serve?",
+      question: "What industries does InovativAI serve?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
@@ -33,7 +33,7 @@ export default function FaqPage() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
     {
-      question: "How does Radison ensure data security?",
+      question: "How does InovativAI ensure data security?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
@@ -43,25 +43,25 @@ export default function FaqPage() {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
     {
-      question: "How can I get started with Radison?",
+      question: "How can I get started with InovativAI?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.",
     },
-  ]
+  ];
 
   // State to track which FAQ item is open
-  const [openItem, setOpenItem] = useState<number | null>(null)
+  const [openItem, setOpenItem] = useState<number | null>(null);
 
   // Toggle FAQ item
   const toggleItem = (index: number) => {
-    setOpenItem(openItem === index ? null : index)
-  }
+    setOpenItem(openItem === index ? null : index);
+  };
 
   return (
     <>
       <HeroSection
         title="Frequently Asked Questions"
-        subtitle="Find answers to common questions about Radison and our services."
+        subtitle="Find answers to common questions about InovativAI and our services."
         primaryButtonText="Contact Us"
         primaryButtonLink="/contact-us"
         secondaryButtonText="Learn More"
@@ -86,17 +86,26 @@ export default function FaqPage() {
                   >
                     <h3 className="text-xl font-semibold">{item.question}</h3>
                     <svg
-                      className={`w-6 h-6 transition-transform ${openItem === index ? "transform rotate-180" : ""}`}
+                      className={`w-6 h-6 transition-transform ${
+                        openItem === index ? "transform rotate-180" : ""
+                      }`}
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 9l-7 7-7-7"
+                      />
                     </svg>
                   </button>
                   <div
                     className={`mt-3 transition-all duration-300 overflow-hidden ${
-                      openItem === index ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+                      openItem === index
+                        ? "max-h-96 opacity-100"
+                        : "max-h-0 opacity-0"
                     }`}
                   >
                     <p className="text-gray-300">{item.answer}</p>
@@ -115,7 +124,10 @@ export default function FaqPage() {
             subtitle="Contact our team for more information about our services and solutions."
           />
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
+          <div
+            className="flex flex-col sm:flex-row justify-center items-center gap-4"
+            data-aos="fade-up"
+          >
             <a href="/contact-us" className="btn-primary">
               Contact Us
               <svg
@@ -125,12 +137,17 @@ export default function FaqPage() {
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
               </svg>
             </a>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }

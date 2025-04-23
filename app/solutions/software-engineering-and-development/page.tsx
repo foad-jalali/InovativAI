@@ -1,33 +1,33 @@
-"use client"
+"use client";
 
-import { useEffect } from "react"
-import HeroSection from "@/components/hero-section"
-import FeatureSection from "@/components/feature-section"
-import SectionHeading from "@/components/section-heading"
-import Link from "next/link"
+import { useEffect } from "react";
+import HeroSection from "@/components/hero-section";
+import FeatureSection from "@/components/feature-section";
+import SectionHeading from "@/components/section-heading";
+import Link from "next/link";
 
 export default function SoftwareEngineeringPage() {
   // Handle smooth scrolling for anchor links
   useEffect(() => {
     const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement
-      const anchor = target.closest("a")
+      const target = e.target as HTMLElement;
+      const anchor = target.closest("a");
 
       if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault()
-        const element = document.querySelector(anchor.hash)
+        e.preventDefault();
+        const element = document.querySelector(anchor.hash);
         if (element) {
           window.scrollTo({
             top: element.getBoundingClientRect().top + window.scrollY - 100,
             behavior: "smooth",
-          })
+          });
         }
       }
-    }
+    };
 
-    document.addEventListener("click", handleAnchorClick)
-    return () => document.removeEventListener("click", handleAnchorClick)
-  }, [])
+    document.addEventListener("click", handleAnchorClick);
+    return () => document.removeEventListener("click", handleAnchorClick);
+  }, []);
 
   return (
     <>
@@ -51,7 +51,7 @@ Architect the future with robust structures and smart patterns."
 
           <FeatureSection
             title="Scalable Architecture Design"
-            description="Software architecture defines the structure and foundation of any software system. At InovativAi, we help businesses design architecture that supports scalability, maintainability, and performance. Our architectural solutions are tailored to project size, complexity, and long-term goals.
+            description="Software architecture defines the structure and foundation of any software system. At InovativAI, we help businesses design architecture that supports scalability, maintainability, and performance. Our architectural solutions are tailored to project size, complexity, and long-term goals.
 We work with organizations to define best-fit patterns and principles that guide development from the ground up. Whether it's monolithic, microservices, or event-driven architecture, our solutions ensure a strong technical foundation for sustainable growth.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -73,7 +73,7 @@ From code to delivery, we build solutions that last."
           <FeatureSection
             title="Custom Software Development"
             description="Our software engineering solutions focus on applying best practices, methodologies, and principles to software development. We support the full software lifecycle, from planning and design to coding and maintenance, using agile and DevOps-driven approaches.
-At InovativAi, we ensure that each solution is efficient, robust, and aligned with user needs and technical constraints. Our engineering process is transparent and collaborative, enabling teams to deliver reliable systems that evolve with business demands.
+At InovativAI, we ensure that each solution is efficient, robust, and aligned with user needs and technical constraints. Our engineering process is transparent and collaborative, enabling teams to deliver reliable systems that evolve with business demands.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Engineering"
@@ -115,7 +115,7 @@ Precision, performance, and control — from microchips to machines."
 
           <FeatureSection
             title="Embedded Software Design"
-            description="Embedded software powers many modern devices, from IoT sensors to medical equipment. At InovativAi, we provide embedded software design solutions that combine efficiency, performance, and reliability.
+            description="Embedded software powers many modern devices, from IoT sensors to medical equipment. At InovativAI, we provide embedded software design solutions that combine efficiency, performance, and reliability.
 We specialize in building software for resource-constrained environments where timing, stability, and precision are critical. Our solutions are tailor
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -127,7 +127,10 @@ We specialize in building software for resource-constrained environments where t
         </div>
       </section>
 
-      <section id="software-testing-and-quality-assurance" className="section-padding pt-32">
+      <section
+        id="software-testing-and-quality-assurance"
+        className="section-padding pt-32"
+      >
         <div className="container-custom">
           <SectionHeading
             title="Software Testing and Quality Assurance"
@@ -148,7 +151,10 @@ From unit testing to system-level validation, our QA approach catches issues ear
         </div>
       </section>
 
-      <section id="software-testing-and-quality-assurance" className="section-padding pt-32">
+      <section
+        id="software-testing-and-quality-assurance"
+        className="section-padding pt-32"
+      >
         <div className="container-custom">
           <SectionHeading
             title="Software Security"
@@ -170,7 +176,10 @@ Whether it's application-level protection or secure deployment practices, our ap
         </div>
       </section>
 
-      <section id="ux-design-and-accessibility" className="section-padding pt-32">
+      <section
+        id="ux-design-and-accessibility"
+        className="section-padding pt-32"
+      >
         <div className="container-custom">
           <SectionHeading
             title="UX Design and Accessibility"
@@ -180,7 +189,7 @@ Where usability meets inclusivity for maximum impact."
 
           <FeatureSection
             title="User-Centered Design"
-            description="User experience and accessibility are essential for adoption and usability. At InovativAi, our UX Design and Accessibility solutions focus on creating intuitive, inclusive, and user-friendly software interfaces.
+            description="User experience and accessibility are essential for adoption and usability. At InovativAI, our UX Design and Accessibility solutions focus on creating intuitive, inclusive, and user-friendly software interfaces.
 We design experiences that cater to all users, including those with disabilities, ensuring compliance with accessibility standards. Our UX process involves research, prototyping, and iterative feedback to deliver designs that are both functional and engaging.
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
@@ -198,7 +207,10 @@ We design experiences that cater to all users, including those with disabilities
             subtitle="Contact our team today to discuss how our Software Engineering & Development services can help you achieve your goals."
           />
 
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
+          <div
+            className="flex flex-col sm:flex-row justify-center items-center gap-4"
+            data-aos="fade-up"
+          >
             <Link href="/contact-us" className="btn-primary">
               Contact Sales
               <svg
@@ -208,16 +220,24 @@ We design experiences that cater to all users, including those with disabilities
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                />
               </svg>
             </Link>
 
-            <Link href="/solutions/devops-and-project-delivery" className="btn-secondary">
+            <Link
+              href="/solutions/devops-and-project-delivery"
+              className="btn-secondary"
+            >
               Explore DevOps Solutions
             </Link>
           </div>
         </div>
       </section>
     </>
-  )
+  );
 }

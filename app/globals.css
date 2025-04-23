@@ -37,10 +37,10 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-md transition-all duration-300 inline-flex items-center;
+    @apply bg-[#512feb] hover:bg-[#512feb]/80 ease-in-out duration-300 text-white px-6 py-2  transition-all rounded-[10px] inline-flex items-center;
   }
   .btn-secondary {
-    @apply bg-transparent border border-white/20 hover:bg-white/10 text-white px-6 py-2 rounded-md transition-all duration-300 inline-flex items-center;
+    @apply bg-transparent border border-white/20 hover:bg-white/10 text-white px-6 py-2  rounded-[10px] transition-all duration-300 inline-flex items-center;
   }
   .section-padding {
     @apply py-16 md:py-24;
