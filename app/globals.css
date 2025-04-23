@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --primary: 124, 58, 237;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background-image: url("/stars-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold md:text-5xl lg:text-6xl;
+  }
+  h2 {
+    @apply text-3xl font-bold md:text-4xl;
+  }
+  h3 {
+    @apply text-2xl font-bold md:text-3xl;
+  }
+  h4 {
+    @apply text-xl font-bold md:text-2xl;
+  }
+  p {
+    @apply text-base md:text-lg text-gray-300;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-md transition-all duration-300 inline-flex items-center;
+  }
+  .btn-secondary {
+    @apply bg-transparent border border-white/20 hover:bg-white/10 text-white px-6 py-2 rounded-md transition-all duration-300 inline-flex items-center;
+  }
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  .container-custom {
+    @apply container mx-auto px-4 md:px-8;
+  }
+  .feature-section {
+    @apply py-12 md:py-20;
+  }
+}
+
+/* Hamburger Menu Animation */
+.hamburger-line {
+  @apply w-6 h-0.5 bg-white transition-all duration-300;
+}
+
+.hamburger-active .hamburger-line:nth-child(1) {
+  @apply rotate-45 translate-y-1.5;
+}
+
+.hamburger-active .hamburger-line:nth-child(2) {
+  @apply opacity-0;
+}
+
+.hamburger-active .hamburger-line:nth-child(3) {
+  @apply -rotate-45 -translate-y-1.5;
+}
+
+/* Mobile Menu Animation */
+.mobile-menu {
+  @apply fixed top-0 right-0 h-screen w-0 bg-black/95 z-50 overflow-hidden transition-all duration-300;
+}
+
+.mobile-menu.open {
+  @apply w-full md:w-80;
+}
+
+/* AOS custom animations */
+[data-aos="custom-fade-up"] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition-property: opacity, transform;
+}
+
+[data-aos="custom-fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
