@@ -9,9 +9,10 @@ export default function Home() {
       <HeroSection
         title="Welcome to InovativAI"
         subtitle="InovativAI is a cutting-edge technology company specializing in artificial intelligence solutions tailored for the aviation industry. By harnessing the power of AI, InovativAI enhances passenger experiences, optimizes flight operations, and revolutionizes it through advanced smart solutions and tools."
+        backgroundImage="https://www.codiste.com/_next/image?url=%2Fassets%2Fimages%2Fservices%2FAI-Development%2FMain%2FHero.webp&w=3840&q=75"
       />
 
-      <section className="section-padding">
+      <section className="section-padding bg-[url('https://i.makeagif.com/media/9-18-2018/r21do1.gif')] bg-cover bg-center">
         <div className="container-custom">
           <div className="flex justify-center mb-12">
             <div

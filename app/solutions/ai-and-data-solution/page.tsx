@@ -33,6 +33,7 @@ export default function AiAndDataSolutionPage() {
     <>
       <HeroSection
         title="AI & Data Solutions"
+        backgroundImage="https://www.mastechdigital.com/hubfs/Banner_2_Trusted%20Data%20Foundations-01.png"
         subtitle="Harness the power of artificial intelligence and data science to drive innovation and growth."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

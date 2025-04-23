@@ -10,6 +10,7 @@ interface HeroSectionProps {
   secondaryButtonLink?: string
   showPartnerBadge?: boolean
   showLogos?: boolean
+  backgroundImage?: string
 }
 
 const HeroSection = ({
@@ -21,9 +22,13 @@ const HeroSection = ({
   secondaryButtonLink = "/contact-us",
   showPartnerBadge = true,
   showLogos = true,
+  backgroundImage
 }: HeroSectionProps) => {
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-16">
+    <section className="relative min-h-screen flex items-center pt-24 pb-16"
+    style={{
+      backgroundImage: backgroundImage ? `url(${backgroundImage})` : "none",
+    }}>
       <div className="container mx-auto px-4 md:px-6 text-center">
         {/* {showPartnerBadge && (
           <div
@@ -39,14 +44,14 @@ const HeroSection = ({
         )} */}
 
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight max-w-4xl mx-auto mb-6"
+          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight max-w-4xl mb-6 text-left"
           data-aos="fade-up"
           data-aos-delay="200"
         >
           {title}
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10" data-aos="fade-up" data-aos-delay="300">
+        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mb-10 text-left" data-aos="fade-up" data-aos-delay="300">
           {subtitle}
         </p>
 
@@ -55,7 +60,7 @@ const HeroSection = ({
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <Link href={primaryButtonLink} className="btn-primary">
+          {/* <Link href={primaryButtonLink} className="btn-primary">
             {primaryButtonText}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +75,7 @@ const HeroSection = ({
 
           <Link href={secondaryButtonLink} className="btn-secondary">
             {secondaryButtonText}
-          </Link>
+          </Link> */}
         </div>
 
         {showLogos && (
