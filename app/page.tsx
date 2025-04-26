@@ -27,17 +27,33 @@ export default function Home() {
         <Image
           width={100}
           height={100}
-          src="/home2.jpg"
+          src="/home2.png"
           className="absolute inset-0 w-screen max-h-screen"
           alt="av"
         />
         <div className="container-custom h-full flex flex-col justify-center">
           <div className="flex justify-center mb-12">
             <div
-              className="inline-flex items-center space-x-2 bg-black/40 backdrop-blur-sm border border-white/10 rounded-full px-4 py-2"
+              className="inline-flex items-center rounded-full px-4 py-2"
               data-aos="fade-up"
             >
-              <span className="text-sm">Who We Are</span>
+              <Link href="/contact-us" className="hidden md:flex btn-primary ">
+                Who We Are
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 ml-2"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
+                </svg>
+              </Link>
             </div>
           </div>
 

@@ -39,9 +39,8 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
@@ -76,12 +75,11 @@ const Navbar = () => {
                             href="/products/armax"
                             className="flex h-full w-full select-none flex-col justify-end rounded-md transition-colors hover:bg-purple-900/20 p-3 no-underline outline-none focus:shadow-md"
                           >
-                            <div className="mb-2  text-lg font-medium">
+                            <div className="text-sm font-medium leading-none">
                               ArMax
                             </div>
                             <p className="text-sm leading-tight text-white/70">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit.
+                              AI-Driven IFE System
                             </p>
                           </Link>
                         </NavigationMenuLink>
@@ -96,8 +94,7 @@ const Navbar = () => {
                               Nexora
                             </div>
                             <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit.
+                              The Smart IFE AI Assistant
                             </p>
                           </Link>
                         </NavigationMenuLink>
@@ -331,9 +328,8 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`lg:hidden flex flex-col space-y-1.5 z-50 ${
-              isMenuOpen ? "hamburger-active" : ""
-            }`}
+            className={`lg:hidden flex flex-col space-y-1.5 z-50 ${isMenuOpen ? "hamburger-active" : ""
+              }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >

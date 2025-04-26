@@ -17,7 +17,7 @@ export default function ArmaxPage() {
     <>
       <HeroSection
         title="ArMax: AI-Driven IFE System for the Future of Connected In-Flight Experience"
-        backgroundImage="/homehero.jpg"
+        backgroundImage="/armax.jpg"
         alt=""
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
         primaryButtonText="Get Started"

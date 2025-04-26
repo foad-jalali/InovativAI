@@ -52,7 +52,7 @@ export default function BlogPage() {
 
   return (
     <>
-      <HeroSection
+      {/* <HeroSection
         title="Blog & Insights"
         subtitle="Stay updated with the latest trends, insights, and news in AI, technology, and business automation."
         primaryButtonText="Subscribe"
@@ -60,7 +60,7 @@ export default function BlogPage() {
         secondaryButtonText="Latest Articles"
         secondaryButtonLink="#blog-posts"
         showLogos={false}
-      />
+      /> */}
 
       <section id="blog-posts" className="section-padding">
         <div className="container-custom">

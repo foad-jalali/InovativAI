@@ -13,7 +13,7 @@ export const metadata: Metadata = generateMetadata({
 export default function ContactUsPage() {
   return (
     <>
-      <HeroSection
+      {/* <HeroSection
         title="Contact Us"
         backgroundImage="/homehero.jpg"
         alt=""
@@ -23,7 +23,7 @@ export default function ContactUsPage() {
         secondaryButtonText="Email Us"
         secondaryButtonLink="mailto:info@InovativAI.com"
         showLogos={false}
-      />
+      /> */}
 
       <section className="section-padding">
         <div className="container-custom">
@@ -130,7 +130,7 @@ export default function ContactUsPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                    <p className="text-gray-300">+1 (234) 567-890</p>
+                    <p className="text-gray-300">+1-587-987-0697</p>
                   </div>
                 </div>
 
@@ -153,7 +153,7 @@ export default function ContactUsPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                    <p className="text-gray-300">info@InovativAI.com</p>
+                    <p className="text-gray-300">info@inovativai.com</p>
                   </div>
                 </div>
 
@@ -183,11 +183,11 @@ export default function ContactUsPage() {
                   <div>
                     <h3 className="text-lg font-semibold mb-1">Address</h3>
                     <p className="text-gray-300">
-                      123 Innovation Drive
+                      302 - 10650 113 Street NW,
                       <br />
-                      Tech City, TC 12345
+                      Edmonton, Alberta T5H 3H6,
                       <br />
-                      United States
+                      CA
                     </p>
                   </div>
                 </div>

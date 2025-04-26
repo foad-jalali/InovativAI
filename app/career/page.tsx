@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function CareerPage() {
   return (
     <>
-      <HeroSection
+      {/* <HeroSection
         title="Join Our Team"
         subtitle="Explore career opportunities at InovativAI and be part of a team that's transforming the future of business automation."
         primaryButtonText="View Open Positions"
@@ -13,12 +13,12 @@ export default function CareerPage() {
         secondaryButtonText="About Us"
         secondaryButtonLink="/about-us"
         showLogos={false}
-      />
+      /> */}
 
       <section id="open-positions" className="section-padding">
         <div className="container-custom">
           <SectionHeading
-            title="Open Positions"
+            title="Join Our Team"
             subtitle="We're always looking for talented individuals to join our team."
           />
 
