@@ -13,6 +13,8 @@ export default function AboutUsPage() {
         primaryButtonLink="/contact-us"
         secondaryButtonText="Our Solutions"
         secondaryButtonLink="/solutions/ai-and-data-solution"
+        backgroundImage=""
+        alt=""
         showLogos={false}
       />
 
@@ -22,21 +24,17 @@ export default function AboutUsPage() {
             <div data-aos="fade-up">
               <SectionHeading
                 title="Our Mission"
-                subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo."
+                subtitle="At InovativAi, our mission is to transform the aviation industry by embedding the power of advanced artificial intelligence into every touchpoint of the air travel experience. We are committed to enhancing operational efficiency, ensuring superior safety standards, and elevating the overall quality of air travel for passengers and industry stakeholders alike. Through our innovative AI-driven products—such as personalized in-flight entertainment systems and intelligent insuretech solutions tailored specifically for air travelers—we aim to redefine what is possible in aviation. By focusing on smart automation, predictive insights, and seamless experiences, we strive to empower airlines, airports, and aircraft manufacturers to achieve new heights of performance, reliability, and customer satisfaction. Our mission is not just to innovate for today, but to build a sustainable, smarter future for air travel worldwide."
                 centered={false}
               />
-              <p className="text-gray-300 mb-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-                accumsan et viverra justo commodo. Proin sodales pulvinar
-                tempor. Cum sociis natoque penatibus et magnis dis parturient
-                montes, nascetur ridiculus mus.
-              </p>
-              <p className="text-gray-300">
+              {/* <p className="text-gray-300 mb-6">
+              At InovativAi, our mission is to transform the aviation industry by embedding the power of advanced artificial intelligence into every touchpoint of the air travel experience. We are committed to enhancing operational efficiency, ensuring superior safety standards, and elevating the overall quality of air travel for passengers and industry stakeholders alike. Through our innovative AI-driven products—such as personalized in-flight entertainment systems and intelligent insuretech solutions tailored specifically for air travelers—we aim to redefine what is possible in aviation. By focusing on smart automation, predictive insights, and seamless experiences, we strive to empower airlines, airports, and aircraft manufacturers to achieve new heights of performance, reliability, and customer satisfaction. Our mission is not just to innovate for today, but to build a sustainable, smarter future for air travel worldwide.
+              </p> */}
+              {/* <p className="text-gray-300">
                 Nam fermentum, nulla luctus pharetra vulputate, felis tellus
                 mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum
                 dolor sit amet, consectetur adipiscing elit.
-              </p>
+              </p> */}
             </div>
             <div
               className="relative rounded-lg overflow-hidden shadow-xl"
@@ -55,7 +53,7 @@ export default function AboutUsPage() {
 
       <FeatureSection
         title="Our Vision"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+        description="Our vision is to lead the aviation industry into a new era where AI is the driving force behind every flight, every operation, and every interaction. We aspire to create a world where air travel is effortlessly safe, incredibly efficient, and deeply personalized for every passenger. At InovativAi, we foresee a future where airlines, airports, and manufacturers leverage real-time AI analytics for smarter decision-making, predictive maintenance to prevent delays and ensure aircraft longevity, and operational optimization to reduce costs and environmental impact. By pioneering these intelligent solutions, we aim to become the trusted technology partner for the aviation sector, shaping an ecosystem where innovation and safety coexist harmoniously. Our vision extends beyond immediate advancements; we are working towards a smarter, more connected, and sustainable future for global aviation."
         imageSrc="/placeholder.svg?height=1080&width=1920"
         imageAlt="Our Vision"
         reverse={true}
@@ -63,7 +61,7 @@ export default function AboutUsPage() {
 
       <FeatureSection
         title="Our Values"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+        description="The core values at InovativAi form the foundation of everything we do. We believe in innovation with purpose—using AI not just for the sake of technology, but to truly enhance the human experience of air travel. Safety is at the forefront of our efforts, with every solution designed to uphold and exceed the highest safety standards. We value excellence, pushing the boundaries of what AI can achieve through rigorous research, ethical development practices, and a relentless commitment to quality. Customer-centricity drives our innovations, ensuring that our products and services are built around the real needs and aspirations of passengers and industry partners. Collaboration and transparency are integral to our culture, as we believe that the best solutions emerge from working closely with clients, regulators, and technology leaders. Finally, we are committed to sustainability, recognizing that the future of aviation must balance growth with environmental responsibility. At InovativAi, our values are not just words—they are the principles that guide us as we build the future of air travel."
         imageSrc="/placeholder.svg?height=1080&width=1920"
         imageAlt="Our Values"
       />

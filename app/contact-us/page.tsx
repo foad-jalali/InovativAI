@@ -1,11 +1,22 @@
 import HeroSection from "@/components/hero-section";
 import SectionHeading from "@/components/section-heading";
+import { generateMetadata } from "@/components/seo";
+import { Metadata } from "next";
 
+export const metadata: Metadata = generateMetadata({
+  title: "Contact Us | InovativAI - Get in Touch",
+  description: "Reach out to InovativAI for inquiries about our AI-driven aviation solutions, software development services, or to request a consultation with our experts.",
+  url: "https://inovativai.com/contact-us",
+  image: "/images/og-contact.jpg",
+  keywords: "Contact InovativAI, AI Solutions Contact, Aviation Technology Inquiry, Software Development Consultation, Business Inquiries, Contact AI Experts, Smart Aviation Solutions",
+});
 export default function ContactUsPage() {
   return (
     <>
       <HeroSection
         title="Contact Us"
+        backgroundImage="/homehero.jpg"
+        alt=""
         subtitle="Get in touch with our team to learn more about our services and solutions."
         primaryButtonText="Call Us"
         primaryButtonLink="tel:+1234567890"

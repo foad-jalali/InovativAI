@@ -1,39 +1,50 @@
-"use client";
+// "use client";
 
 import { useEffect } from "react";
 import HeroSection from "@/components/hero-section";
 import FeatureSection from "@/components/feature-section";
 import SectionHeading from "@/components/section-heading";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "AI & Data Solutions | InovativAI",
+  description: "Explore InovativAi’s AI & Data Solutions, empowering businesses with AI, machine learning, and data analytics to transform operations and decisions.",
+  url: "https://inovativai.com/",
+  image: "/images/og-home.jpg",
+  keywords: "AI and Data Solutions, Artificial Intelligence Consulting, Machine Learning Services, AI Security Solutions, Business Intelligence Platforms, Data Science for Business, Predictive Analytics, AI Data Platforms",
+});
 export default function AiAndDataSolutionPage() {
+  
   // Handle smooth scrolling for anchor links
-  useEffect(() => {
-    const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      const anchor = target.closest("a");
+  // useEffect(() => {
+  //   const handleAnchorClick = (e: MouseEvent) => {
+  //     const target = e.target as HTMLElement;
+  //     const anchor = target.closest("a");
 
-      if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault();
-        const element = document.querySelector(anchor.hash);
-        if (element) {
-          window.scrollTo({
-            top: element.getBoundingClientRect().top + window.scrollY - 100,
-            behavior: "smooth",
-          });
-        }
-      }
-    };
+  //     if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
+  //       e.preventDefault();
+  //       const element = document.querySelector(anchor.hash);
+  //       if (element) {
+  //         window.scrollTo({
+  //           top: element.getBoundingClientRect().top + window.scrollY - 100,
+  //           behavior: "smooth",
+  //         });
+  //       }
+  //     }
+  //   };
 
-    document.addEventListener("click", handleAnchorClick);
-    return () => document.removeEventListener("click", handleAnchorClick);
-  }, []);
+  //   document.addEventListener("click", handleAnchorClick);
+  //   return () => document.removeEventListener("click", handleAnchorClick);
+  // }, []);
 
   return (
     <>
       <HeroSection
         title="AI & Data Solutions"
-        backgroundImage="https://www.mastechdigital.com/hubfs/Banner_2_Trusted%20Data%20Foundations-01.png"
+        backgroundImage="/homehero.jpg"
+        alt=""
         subtitle="Harness the power of artificial intelligence and data science to drive innovation and growth."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

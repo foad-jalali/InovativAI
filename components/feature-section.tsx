@@ -1,9 +1,11 @@
+"use client"; 
 import Image from "next/image"
 import Link from "next/link"
+import { useEffect } from "react";
 
 interface FeatureSectionProps {
   title: string
-  description: string
+  description: React.ReactNode
   imageSrc: string
   imageAlt: string
   reverse?: boolean
@@ -22,6 +24,12 @@ const FeatureSection = ({
   buttonLink,
   badge,
 }: FeatureSectionProps) => {
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).AOS) {
+      (window as any).AOS.refresh();
+    }
+  }, []);
+  
   return (
     <section className="feature-section">
       <div className="container-custom">

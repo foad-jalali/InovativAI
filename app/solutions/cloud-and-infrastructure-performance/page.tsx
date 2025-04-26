@@ -1,38 +1,49 @@
-"use client";
+// "use client";
 
 import { useEffect } from "react";
 import HeroSection from "@/components/hero-section";
 import FeatureSection from "@/components/feature-section";
 import SectionHeading from "@/components/section-heading";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "AI & Data Solutions | InovativAI",
+  description: "Explore InovativAi’s Cloud, Infrastructure & Performance solutions to help businesses scale securely through cloud, data center, and AI hardware strategies.",
+  url: "https://inovativai.com/",
+  image: "/images/og-home.jpg",
+  keywords: "Cloud Infrastructure Solutions, Data Center Design, GPU for AI Workloads, High-Performance Computing Services, Cloud Migration Consulting, AI and Cloud Integration, HPC Infrastructure, AI Hardware Optimization",
+});
 export default function CloudInfrastructurePage() {
   // Handle smooth scrolling for anchor links
-  useEffect(() => {
-    const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      const anchor = target.closest("a");
+  // useEffect(() => {
+  //   const handleAnchorClick = (e: MouseEvent) => {
+  //     const target = e.target as HTMLElement;
+  //     const anchor = target.closest("a");
 
-      if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault();
-        const element = document.querySelector(anchor.hash);
-        if (element) {
-          window.scrollTo({
-            top: element.getBoundingClientRect().top + window.scrollY - 100,
-            behavior: "smooth",
-          });
-        }
-      }
-    };
+  //     if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
+  //       e.preventDefault();
+  //       const element = document.querySelector(anchor.hash);
+  //       if (element) {
+  //         window.scrollTo({
+  //           top: element.getBoundingClientRect().top + window.scrollY - 100,
+  //           behavior: "smooth",
+  //         });
+  //       }
+  //     }
+  //   };
 
-    document.addEventListener("click", handleAnchorClick);
-    return () => document.removeEventListener("click", handleAnchorClick);
-  }, []);
+  //   document.addEventListener("click", handleAnchorClick);
+  //   return () => document.removeEventListener("click", handleAnchorClick);
+  // }, []);
 
   return (
     <>
       <HeroSection
         title="Cloud, Infrastructure & Performance"
+        backgroundImage="/homehero.jpg"
+        alt=""
         subtitle="Optimize your infrastructure and leverage cloud technologies for maximum performance and scalability."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

@@ -32,7 +32,9 @@ export default function IndustriesPage() {
   return (
     <>
       <HeroSection
-        title="Industries We Serve"
+        title="Industries We Serve at InovativAi"
+        backgroundImage="Industries We Serve"
+        alt="Industries We Serve"
         subtitle="Tailored solutions for diverse industries, leveraging our expertise to address unique challenges."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"
@@ -45,12 +47,15 @@ export default function IndustriesPage() {
         <div className="container-custom">
           <SectionHeading
             title="Technology and Digital Innovation"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Empowering transformation through cutting-edge technology and visionary innovation.
+Shape the future with solutions designed for a digital world."
           />
 
           <FeatureSection
             title="Digital Transformation"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+            description="In the fast-paced world of technology, staying ahead requires more than just tools—it takes adaptable strategies and well-engineered systems. At InovativAi, we provide custom digital solutions for tech companies and digital innovators. Our services range from building scalable cloud infrastructure to implementing secure platforms and data-centric applications.
+We help digital teams enhance product performance, streamline workflows, and drive innovation through smart, efficient development and integration. Whether you're launching a new app, building a SaaS platform, or scaling an existing system, our solutions are designed to support sustainable growth and competitive advantage.
+"
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Digital Transformation"
             buttonText="Learn More"
@@ -63,12 +68,15 @@ export default function IndustriesPage() {
         <div className="container-custom">
           <SectionHeading
             title="Aviation & Aerospace"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Elevate performance with precision technology for the skies and beyond.
+Innovation that propels safety, efficiency, and exploration."
           />
 
           <FeatureSection
-            title="Aerospace Solutions"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+            title="Aviation & Aerospace Solutions"
+            description="Originally rooted in the aviation industry, InovativAi has deep experience solving complex challenges in air travel and aerospace operations. We offer solutions for predictive maintenance, passenger experience optimization, real-time data processing, and operational efficiency.
+Our systems help airlines and aerospace companies improve safety, reduce downtime, and enhance customer service. From in-flight services to flight data analysis, we bring intelligent automation and reliability to one of the world’s most dynamic industries.
+"
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Aerospace"
             reverse={true}
@@ -82,12 +90,15 @@ export default function IndustriesPage() {
         <div className="container-custom">
           <SectionHeading
             title="Finance & Banking"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Secure, agile, and intelligent solutions for the future of finance.
+Empowering trust, speed, and growth in a digital economy."
           />
 
           <FeatureSection
             title="Financial Technology Solutions"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+            description="The finance industry requires precision, compliance, and real-time responsiveness. At InovativAi, we deliver data and software solutions that enhance fraud detection, automate risk analysis, and streamline customer interactions in banking and financial services.
+We work with institutions to modernize legacy systems, integrate smart technologies into daily operations, and improve decision-making through analytics and automation. Our solutions support secure digital transformation in a highly regulated environment, ensuring trust and operational excellence.
+"
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Finance"
             buttonText="Learn More"
@@ -100,12 +111,15 @@ export default function IndustriesPage() {
         <div className="container-custom">
           <SectionHeading
             title="Healthcare & Life Sciences"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Advancing care and discovery through smart, data-driven innovation.
+Better outcomes, powered by technology and compassion."
           />
 
           <FeatureSection
             title="Healthcare Innovation"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+            description="In healthcare and life sciences, accuracy and data security are critical. InovativAi delivers intelligent digital solutions that support medical research, patient care, and operational efficiency. We help healthcare providers leverage data analytics for better diagnoses, personalized care, and resource planning.
+Our solutions also extend to life sciences companies, enabling faster research cycles, compliance with data privacy laws, and workflow automation. With a focus on ethical development and data protection, we bring innovation while maintaining trust and safety.
+"
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Healthcare"
             reverse={true}
@@ -119,12 +133,15 @@ export default function IndustriesPage() {
         <div className="container-custom">
           <SectionHeading
             title="Energy and Oil & Gas"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Driving operational excellence and sustainability across the energy sector.
+Innovative solutions for a dynamic, resource-driven world."
           />
 
           <FeatureSection
             title="Energy Sector Solutions"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+            description="The energy sector faces increasing pressure to operate efficiently and sustainably. At InovativAi, we offer digital and data-driven solutions that help companies in oil, gas, and renewables monitor performance, predict equipment failures, and optimize energy usage.
+We support field operations with real-time analytics and remote monitoring, ensuring safer and more cost-effective practices. Our solutions drive operational resilience and data-informed decision-making in one of the world’s most essential industries.
+"
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Energy"
             buttonText="Learn More"
@@ -137,12 +154,15 @@ export default function IndustriesPage() {
         <div className="container-custom">
           <SectionHeading
             title="Education & e-Learning"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Transform learning with engaging, accessible, and intelligent digital platforms.
+Empowering minds anytime, anywhere."
           />
 
           <FeatureSection
             title="Educational Technology"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor."
+            description="Digital transformation is reshaping how education is delivered. At InovativAi, we provide solutions that enhance digital learning platforms, personalize student experiences, and support institutional analytics. We help educators track progress, improve content delivery, and make informed decisions.
+Whether in traditional education or online learning environments, our solutions support adaptive learning, content recommendation, and administrative automation. We enable a smarter, more accessible, and engaging future for learners and educators alike.
+"
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Education"
             reverse={true}

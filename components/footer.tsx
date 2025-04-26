@@ -128,12 +128,12 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <p className="text-gray-400 text-sm mb-2">
-              123 Innovation Drive, Tech City
+              Address: 302 - 10650 113 Street NW, Edmonton, Alberta T5H 3H6, CA
             </p>
             <p className="text-gray-400 text-sm mb-2">
               Email: info@inovativai.com
             </p>
-            <p className="text-gray-400 text-sm">Phone: +44 1234 567890</p>
+            <p className="text-gray-400 text-sm">Phone: +1-587-987-0697</p>
           </div>
         </div>
 

@@ -10,7 +10,8 @@ interface HeroSectionProps {
   secondaryButtonLink?: string;
   showPartnerBadge?: boolean;
   showLogos?: boolean;
-  backgroundImage?: string;
+  backgroundImage: string;
+  alt: string
 }
 
 const HeroSection = ({
@@ -23,12 +24,13 @@ const HeroSection = ({
   showPartnerBadge = true,
   showLogos = true,
   backgroundImage,
+  alt,
 }: HeroSectionProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16">
       <Image
-        alt="home_hero"
-        src="/homehero.jpg"
+        alt={alt}
+        src={backgroundImage}
         className="w-screen absolute inset-0"
         width={100}
         height={100}

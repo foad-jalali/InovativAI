@@ -9,12 +9,12 @@ import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata: Metadata = {
-  title: "InovativAI",
-  description:
-    "Experience the future of business with intelligent, scalable automation solutions tailored to your needs",
-  generator: "v0.dev",
-}
+// export const metadata: Metadata = {
+//   title: "InovativAI",
+//   description:
+//     "Experience the future of business with intelligent, scalable automation solutions tailored to your needs",
+//   generator: "v0.dev",
+// }
 
 export default function RootLayout({
   children,

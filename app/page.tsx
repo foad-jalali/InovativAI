@@ -3,7 +3,16 @@ import FeatureSection from "@/components/feature-section";
 import SectionHeading from "@/components/section-heading";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "Home | InovativAI",
+  description: "Leading AI solutions for the aviation industry.",
+  url: "https://inovativai.com/",
+  image: "/images/og-home.jpg",
+  keywords: "AI, Aviation, Technology, Smart Solutions",
+});
 export default function Home() {
   return (
     <>
@@ -11,6 +20,7 @@ export default function Home() {
         title="Welcome to InovativAI"
         subtitle="InovativAI is a cutting-edge technology company specializing in artificial intelligence solutions tailored for the aviation industry. By harnessing the power of AI, InovativAI enhances passenger experiences, optimizes flight operations, and revolutionizes it through advanced smart solutions and tools."
         backgroundImage="/homehero.jpg"
+        alt="hero-image"
       />
 
       <section className="section-padding  h-screen bg-cover flex  relative bg-center">

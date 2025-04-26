@@ -1,38 +1,50 @@
-"use client";
+// "use client";
 
 import { useEffect } from "react";
 import HeroSection from "@/components/hero-section";
 import FeatureSection from "@/components/feature-section";
 import SectionHeading from "@/components/section-heading";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "DevOps & Project Delivery | InovativAI",
+  description: "Explore InovativAi’s DevOps & Project Delivery solutions that streamline development, boost team collaboration, and ensure agile, high-quality software delivery.",
+  url: "https://inovativai.com/",
+  image: "/images/og-home.jpg",
+  keywords: "DevOps Solutions, Agile Project Management, CI/CD Implementation, Project Delivery Services, DevOps Culture, Agile Development, Software Delivery Optimization",
+});
 export default function DevOpsPage() {
+  
   // Handle smooth scrolling for anchor links
-  useEffect(() => {
-    const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      const anchor = target.closest("a");
+  // useEffect(() => {
+  //   const handleAnchorClick = (e: MouseEvent) => {
+  //     const target = e.target as HTMLElement;
+  //     const anchor = target.closest("a");
 
-      if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault();
-        const element = document.querySelector(anchor.hash);
-        if (element) {
-          window.scrollTo({
-            top: element.getBoundingClientRect().top + window.scrollY - 100,
-            behavior: "smooth",
-          });
-        }
-      }
-    };
+  //     if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
+  //       e.preventDefault();
+  //       const element = document.querySelector(anchor.hash);
+  //       if (element) {
+  //         window.scrollTo({
+  //           top: element.getBoundingClientRect().top + window.scrollY - 100,
+  //           behavior: "smooth",
+  //         });
+  //       }
+  //     }
+  //   };
 
-    document.addEventListener("click", handleAnchorClick);
-    return () => document.removeEventListener("click", handleAnchorClick);
-  }, []);
+  //   document.addEventListener("click", handleAnchorClick);
+  //   return () => document.removeEventListener("click", handleAnchorClick);
+  // }, []);
 
   return (
     <>
       <HeroSection
         title="DevOps & Project Delivery"
+        backgroundImage="/homehero.jpg"
+        alt=""
         subtitle="Streamline your development process and accelerate project delivery with our DevOps solutions."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

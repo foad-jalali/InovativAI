@@ -2,12 +2,23 @@ import HeroSection from "@/components/hero-section"
 import FeatureSection from "@/components/feature-section"
 import SectionHeading from "@/components/section-heading"
 import Link from "next/link"
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "Nexora | InovativAI",
+  description: "Nexora by InovativAi is a next-gen AI IFE Assistant delivering personalized, multilingual, voice-enabled, and accessible experiences in-flight.",
+  url: "https://inovativai.com/",
+  image: "/images/og-home.jpg",
+  keywords: "Nexora IFE AI Assistant, In-Flight AI Entertainment System, Personalized Passenger Experience, Cabin Crew Messaging Tools, Bilingual IFE Support, Speech-to-Text for Airlines, Accessibility in IFE Systems, Intelligent App Recommendations for Flights",
+});
 export default function NexoraPage() {
   return (
     <>
       <HeroSection
         title="Nexora: Next-Generation Data Processing"
+        backgroundImage="/homehero.jpg"
+        alt=""
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

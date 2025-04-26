@@ -1,38 +1,49 @@
-"use client";
+// "use client";
 
 import { useEffect } from "react";
 import HeroSection from "@/components/hero-section";
 import FeatureSection from "@/components/feature-section";
 import SectionHeading from "@/components/section-heading";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "Software Engineering & Development | InovativAI",
+  description: "Explore InovativAi’s Software Engineering solutions, from architecture and testing to security and UX, helping businesses build scalable systems.",
+  url: "https://inovativai.com/",
+  image: "/images/og-home.jpg",
+  keywords: "Software Engineering Solutions, Custom Software Development, Software Architecture Design, Embedded Software Development, Software Testing Services, Secure Software Development, UX and Accessibility Design, Software Implementation Services",
+});
 export default function SoftwareEngineeringPage() {
   // Handle smooth scrolling for anchor links
-  useEffect(() => {
-    const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      const anchor = target.closest("a");
+  // useEffect(() => {
+  //   const handleAnchorClick = (e: MouseEvent) => {
+  //     const target = e.target as HTMLElement;
+  //     const anchor = target.closest("a");
 
-      if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault();
-        const element = document.querySelector(anchor.hash);
-        if (element) {
-          window.scrollTo({
-            top: element.getBoundingClientRect().top + window.scrollY - 100,
-            behavior: "smooth",
-          });
-        }
-      }
-    };
+  //     if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
+  //       e.preventDefault();
+  //       const element = document.querySelector(anchor.hash);
+  //       if (element) {
+  //         window.scrollTo({
+  //           top: element.getBoundingClientRect().top + window.scrollY - 100,
+  //           behavior: "smooth",
+  //         });
+  //       }
+  //     }
+  //   };
 
-    document.addEventListener("click", handleAnchorClick);
-    return () => document.removeEventListener("click", handleAnchorClick);
-  }, []);
+  //   document.addEventListener("click", handleAnchorClick);
+  //   return () => document.removeEventListener("click", handleAnchorClick);
+  // }, []);
 
   return (
     <>
       <HeroSection
         title="Software Engineering & Development"
+        backgroundImage="/homehero.jpg"
+        alt=""
         subtitle="Build robust, scalable software solutions with our expert engineering and development services."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"
