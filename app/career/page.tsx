@@ -1,6 +1,16 @@
 import HeroSection from "@/components/hero-section";
 import SectionHeading from "@/components/section-heading";
+import { generateMetadata } from "@/components/seo";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = generateMetadata({
+  title: "Careers | InovativAi - Build the Future with AI Innovation",
+  description: "Explore career opportunities at InovativAi. Join our team of innovators shaping the future of AI, aviation, cloud, data, and software solutions.",
+  url: "https://inovativai.com/career",
+  image: "/images/og-home.jpg",
+  keywords: "InovativAi Careers, AI Jobs, Technology Careers, Software Engineering Jobs, Cloud Jobs, Data Analytics Careers, Work at InovativAi, AI Innovation Jobs",
+});
 
 export default function CareerPage() {
   return (
@@ -15,7 +25,7 @@ export default function CareerPage() {
         showLogos={false}
       /> */}
 
-      <section id="open-positions" className="section-padding">
+      <section id="open-positions" className="section-padding mt-10">
         <div className="container-custom">
           <SectionHeading
             title="Join Our Team"

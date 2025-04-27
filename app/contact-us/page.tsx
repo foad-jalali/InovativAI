@@ -25,7 +25,7 @@ export default function ContactUsPage() {
         showLogos={false}
       /> */}
 
-      <section className="section-padding">
+      <section className="section-padding mt-10">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-12">
             <div data-aos="fade-up">

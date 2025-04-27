@@ -11,7 +11,7 @@ import { generateMetadata } from "@/components/seo";
 export const metadata: Metadata = generateMetadata({
   title: "AI & Data Solutions | InovativAI",
   description: "Explore InovativAi’s AI & Data Solutions, empowering businesses with AI, machine learning, and data analytics to transform operations and decisions.",
-  url: "https://inovativai.com/",
+  url: "https://inovativai.com/ai-and-data-solution",
   image: "/images/og-home.jpg",
   keywords: "AI and Data Solutions, Artificial Intelligence Consulting, Machine Learning Services, AI Security Solutions, Business Intelligence Platforms, Data Science for Business, Predictive Analytics, AI Data Platforms",
 });
@@ -71,8 +71,8 @@ By working closely with clients, we deliver solutions that automate decision-mak
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="AI Solutions"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -96,8 +96,8 @@ InovativAI applies machine learning in areas like personalization, predictive an
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Predictive Analytics"
             reverse={true}
-            buttonText="See Demo"
-            buttonLink="/contact-us"
+            // buttonText="See Demo"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -117,8 +117,8 @@ We also prioritize privacy by design, helping organizations adopt responsible AI
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="AI Security"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -139,8 +139,8 @@ Our platforms enable efficient collaboration between teams and systems, ensuring
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Data Platforms"
             reverse={true}
-            buttonText="Explore Solutions"
-            buttonLink="/contact-us"
+            // buttonText="Explore Solutions"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -160,8 +160,8 @@ By integrating data from multiple sources, we provide a holistic view of busines
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Business Intelligence"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -182,8 +182,8 @@ With our analytics services, clients gain the ability to forecast outcomes, eval
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Data Analytics"
             reverse={true}
-            buttonText="See Demo"
-            buttonLink="/contact-us"
+            // buttonText="See Demo"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -200,7 +200,7 @@ With our analytics services, clients gain the ability to forecast outcomes, eval
             data-aos="fade-up"
           >
             <Link href="/contact-us" className="btn-primary">
-              Contact Sales
+              Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"

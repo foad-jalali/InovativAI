@@ -2,7 +2,16 @@ import HeroSection from "@/components/hero-section";
 import FeatureSection from "@/components/feature-section";
 import SectionHeading from "@/components/section-heading";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
 
+export const metadata: Metadata = generateMetadata({
+  title: "About Us | InovativAi - Shaping the Future with AI and Innovation",
+  description: "Learn about InovativAi’s mission to revolutionize industries with cutting-edge AI, cloud, data, and software engineering solutions.",
+  url: "https://inovativai.com/about-us",
+  image: "/images/og-home.jpg",
+  keywords: "About InovativAi, AI Solutions, Aviation Technology, Cloud Services, Data Analytics, Software Engineering, Innovation, Digital Transformation",
+});
 export default function AboutUsPage() {
   return (
     <>

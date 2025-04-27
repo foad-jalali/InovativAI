@@ -2,53 +2,28 @@ import HeroSection from "@/components/hero-section"
 import SectionHeading from "@/components/section-heading"
 import Link from "next/link"
 import Image from "next/image"
+import { Metadata } from "next";
+import { generateMetadata } from "@/components/seo";
+import path from "path";
+import { promises as fs } from "fs";
 
-export default function BlogPage() {
+
+export const metadata: Metadata = generateMetadata({
+  title: "Blog | InovativAi",
+  description: "Stay updated with the latest articles, insights, and trends in AI, aviation technology, cloud solutions, data analytics, and software innovation.",
+  url: "https://inovativai.com/blog",
+  image: "/images/og-home.jpg",
+  keywords: "InovativAi Blog, AI Insights, Aviation Technology News, Cloud Computing Trends, Data Analytics Updates, Software Innovation, Industry News, Tech Articles",
+});
+export async function getBlogPosts() {
+  const filePath = path.join(process.cwd(), "db", "blogPost.json");
+  const data = await fs.readFile(filePath, "utf8");
+  return JSON.parse(data);
+}
+
+export default async function BlogPage() {
   // Sample blog posts
-  const blogPosts = [
-    {
-      id: 1,
-      title: "The Future of AI in Business Automation",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
-      date: "April 15, 2023",
-      image: "/placeholder.svg?height=1080&width=1920",
-    },
-    {
-      id: 2,
-      title: "How Machine Learning is Transforming Industries",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
-      date: "March 28, 2023",
-      image: "/placeholder.svg?height=1080&width=1920",
-    },
-    {
-      id: 3,
-      title: "The Importance of Data Security in AI Applications",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
-      date: "February 12, 2023",
-      image: "/placeholder.svg?height=1080&width=1920",
-    },
-    {
-      id: 4,
-      title: "Cloud Computing: The Backbone of Modern Business",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
-      date: "January 30, 2023",
-      image: "/placeholder.svg?height=1080&width=1920",
-    },
-    {
-      id: 5,
-      title: "DevOps Best Practices for Agile Teams",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
-      date: "December 15, 2022",
-      image: "/placeholder.svg?height=1080&width=1920",
-    },
-    {
-      id: 6,
-      title: "The Role of UX Design in Software Development",
-      excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.",
-      date: "November 22, 2022",
-      image: "/placeholder.svg?height=1080&width=1920",
-    },
-  ]
+  const blogPosts = await getBlogPosts();
 
   return (
     <>
@@ -62,7 +37,7 @@ export default function BlogPage() {
         showLogos={false}
       /> */}
 
-      <section id="blog-posts" className="section-padding">
+      <section id="blog-posts" className="section-padding mt-10">
         <div className="container-custom">
           <SectionHeading
             title="Latest Articles"
@@ -70,7 +45,7 @@ export default function BlogPage() {
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
-            {blogPosts.map((post) => (
+            {blogPosts.map((post: any) => (
               <div
                 key={post.id}
                 className="bg-black/30 backdrop-blur-sm border border-white/10 rounded-lg overflow-hidden group"
@@ -87,8 +62,11 @@ export default function BlogPage() {
                 <div className="p-6">
                   <p className="text-purple-400 text-sm mb-2">{post.date}</p>
                   <h3 className="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">{post.title}</h3>
+                  <p className="text-base text-gray-400 mb-2 group-hover:text-purple-400 transition-colors">
+                    {post.short_description}
+                  </p>
                   <p className="text-gray-300 mb-4">{post.excerpt}</p>
-                  <Link href="#" className="text-purple-400 hover:text-purple-300 inline-flex items-center">
+                  <Link href={`/blog/${post.slug}`} className="text-purple-400 hover:text-purple-300 inline-flex items-center">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

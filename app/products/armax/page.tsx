@@ -70,8 +70,8 @@ export default function ArmaxPage() {
         }
         imageSrc="/placeholder.svg?height=1080&width=1920"
         imageAlt="Workflow Automation"
-        buttonText="Learn More"
-        buttonLink="/contact-us"
+        // buttonText="Learn More"
+        // buttonLink="/contact-us"
       />
 
       <FeatureSection
@@ -87,8 +87,8 @@ export default function ArmaxPage() {
         imageSrc="/placeholder.svg?height=1080&width=1920"
         imageAlt="Analytics Dashboard"
         reverse={true}
-        buttonText="See Demo"
-        buttonLink="/contact-us"
+        // buttonText="See Demo"
+        // buttonLink="/contact-us"
       />
 
       <FeatureSection
@@ -111,8 +111,8 @@ export default function ArmaxPage() {
         }
         imageSrc="/placeholder.svg?height=1080&width=1920"
         imageAlt="Enterprise Security"
-        buttonText="Learn About Security"
-        buttonLink="/contact-us"
+        // buttonText="Learn About Security"
+        // buttonLink="/contact-us"
       />
       <FeatureSection
         title="Bringing Intelligence and Connectivity Together – The Future with ArMax"
@@ -131,8 +131,8 @@ export default function ArmaxPage() {
         imageSrc="/placeholder.svg?height=1080&width=1920"
         imageAlt="Enterprise Security"
         reverse={true}
-        buttonText="Learn About Security"
-        buttonLink="/contact-us"
+        // buttonText="Learn About Security"
+        // buttonLink="/contact-us"
       />
 
       <section className="section-padding bg-gradient-to-b from-purple-900/20 to-transparent">
@@ -144,7 +144,7 @@ export default function ArmaxPage() {
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
             <Link href="/contact-us" className="btn-primary">
-              Contact Sales
+              Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"

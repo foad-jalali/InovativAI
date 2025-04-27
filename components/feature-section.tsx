@@ -41,7 +41,7 @@ const FeatureSection = ({
               </div>
             )}
             <h2 className="text-3xl md:text-4xl font-bold mb-4">{title}</h2>
-            <p className="text-gray-300 mb-6">{description}</p>
+            <div className="text-gray-300 mb-6">{description}</div>
             {buttonText && buttonLink && (
               <Link href={buttonLink} className="btn-primary">
                 {buttonText}

@@ -11,7 +11,7 @@ import { generateMetadata } from "@/components/seo";
 export const metadata: Metadata = generateMetadata({
   title: "DevOps & Project Delivery | InovativAI",
   description: "Explore InovativAi’s DevOps & Project Delivery solutions that streamline development, boost team collaboration, and ensure agile, high-quality software delivery.",
-  url: "https://inovativai.com/",
+  url: "https://inovativai.com/devops-and-project-delivery",
   image: "/images/og-home.jpg",
   keywords: "DevOps Solutions, Agile Project Management, CI/CD Implementation, Project Delivery Services, DevOps Culture, Agile Development, Software Delivery Optimization",
 });
@@ -68,8 +68,8 @@ We help organizations build a DevOps culture, implement CI/CD pipelines, and aut
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="CI/CD"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -92,8 +92,8 @@ InovativAI provides guidance on project planning, sprint management, and task tr
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Agile Methodology"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -110,7 +110,7 @@ InovativAI provides guidance on project planning, sprint management, and task tr
             data-aos="fade-up"
           >
             <Link href="/contact-us" className="btn-primary">
-              Contact Sales
+              Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"

@@ -11,7 +11,7 @@ import { generateMetadata } from "@/components/seo";
 export const metadata: Metadata = generateMetadata({
   title: "Software Engineering & Development | InovativAI",
   description: "Explore InovativAi’s Software Engineering solutions, from architecture and testing to security and UX, helping businesses build scalable systems.",
-  url: "https://inovativai.com/",
+  url: "https://inovativai.com/software-engineering-and-development",
   image: "/images/og-home.jpg",
   keywords: "Software Engineering Solutions, Custom Software Development, Software Architecture Design, Embedded Software Development, Software Testing Services, Secure Software Development, UX and Accessibility Design, Software Implementation Services",
 });
@@ -67,8 +67,8 @@ We work with organizations to define best-fit patterns and principles that guide
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Architecture"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -89,8 +89,8 @@ At InovativAI, we ensure that each solution is efficient, robust, and aligned wi
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Engineering"
             reverse={true}
-            buttonText="See Demo"
-            buttonLink="/contact-us"
+            // buttonText="See Demo"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -110,8 +110,8 @@ Whether it's deploying a new platform or integrating with third-party tools, our
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Implementation"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -132,8 +132,8 @@ We specialize in building software for resource-constrained environments where t
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Web Development"
             reverse={true}
-            buttonText="Explore Solutions"
-            buttonLink="/contact-us"
+            // buttonText="Explore Solutions"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -156,8 +156,8 @@ From unit testing to system-level validation, our QA approach catches issues ear
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Web Development"
-            buttonText="Explore Solutions"
-            buttonLink="/contact-us"
+            // buttonText="Explore Solutions"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -181,8 +181,8 @@ Whether it's application-level protection or secure deployment practices, our ap
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Web Development"
             reverse={true}
-            buttonText="Explore Solutions"
-            buttonLink="/contact-us"
+            // buttonText="Explore Solutions"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -205,8 +205,8 @@ We design experiences that cater to all users, including those with disabilities
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="UI/UX Design"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -223,7 +223,7 @@ We design experiences that cater to all users, including those with disabilities
             data-aos="fade-up"
           >
             <Link href="/contact-us" className="btn-primary">
-              Contact Sales
+              Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"

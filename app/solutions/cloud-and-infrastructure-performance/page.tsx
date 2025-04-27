@@ -9,9 +9,9 @@ import { Metadata } from "next";
 import { generateMetadata } from "@/components/seo";
 
 export const metadata: Metadata = generateMetadata({
-  title: "AI & Data Solutions | InovativAI",
+  title: "Cloud, Infrastructure & Performance | InovativAI",
   description: "Explore InovativAi’s Cloud, Infrastructure & Performance solutions to help businesses scale securely through cloud, data center, and AI hardware strategies.",
-  url: "https://inovativai.com/",
+  url: "https://inovativai.com/cloud-and-infrastructure-performance",
   image: "/images/og-home.jpg",
   keywords: "Cloud Infrastructure Solutions, Data Center Design, GPU for AI Workloads, High-Performance Computing Services, Cloud Migration Consulting, AI and Cloud Integration, HPC Infrastructure, AI Hardware Optimization",
 });
@@ -67,8 +67,8 @@ We work across public, private, and hybrid environments, providing strategies fo
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Cloud Migration"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -92,8 +92,8 @@ We help businesses build AI-capable environments that scale with demand. By alig
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="AI Infrastructure"
             reverse={true}
-            buttonText="See Demo"
-            buttonLink="/contact-us"
+            // buttonText="See Demo"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -116,8 +116,8 @@ Our implementation approach ensures minimal downtime and a smooth transition. We
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Data Center"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -138,8 +138,8 @@ We advise on deployment, scalability, and workload optimization using cutting-ed
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="GPU Hardware"
             reverse={true}
-            buttonText="Explore Solutions"
-            buttonLink="/contact-us"
+            // buttonText="Explore Solutions"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -159,8 +159,8 @@ Our team provides end-to-end strategies, including infrastructure planning, work
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="HPC Solutions"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -177,7 +177,7 @@ Our team provides end-to-end strategies, including infrastructure planning, work
             data-aos="fade-up"
           >
             <Link href="/contact-us" className="btn-primary">
-              Contact Sales
+              Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"

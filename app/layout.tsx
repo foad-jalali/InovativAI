@@ -23,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body className={`${inter.className} bg-black text-white min-h-screen flex flex-col`}>
         <Navbar />
         <main className="flex-grow">{children}</main>
@@ -35,7 +38,7 @@ export default function RootLayout({
             AOS.init({
               duration: 600,
               once: false,
-              mirror: true
+              mirror: false
             });
           `}
         </Script>

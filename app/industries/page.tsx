@@ -1,33 +1,43 @@
-"use client"
+// "use client"
 
 import { useEffect } from "react"
 import HeroSection from "@/components/hero-section"
 import FeatureSection from "@/components/feature-section"
 import SectionHeading from "@/components/section-heading"
 import Link from "next/link"
+import { Metadata } from "next"
+import { generateMetadata } from "@/components/seo"
 
+export const metadata: Metadata = generateMetadata({
+  title: "Industries We Serve | InovativAI",
+  description: "Discover how InovativAi delivers digital and data-driven solutions across industries, driving innovation and solving real business challenges.",
+  url: "https://inovativai.com/industries",
+  image: "/images/og-home.jpg",
+  keywords: "Digital Solutions for Industries, Technology Consulting, Innovation in Aviation, Healthcare Digital Transformation, Financial Software Solutions, Education Technology Services, Data-Driven Business Strategies",
+});
 export default function IndustriesPage() {
+  
   // Handle smooth scrolling for anchor links
-  useEffect(() => {
-    const handleAnchorClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement
-      const anchor = target.closest("a")
+  // useEffect(() => {
+  //   const handleAnchorClick = (e: MouseEvent) => {
+  //     const target = e.target as HTMLElement
+  //     const anchor = target.closest("a")
 
-      if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
-        e.preventDefault()
-        const element = document.querySelector(anchor.hash)
-        if (element) {
-          window.scrollTo({
-            top: element.getBoundingClientRect().top + window.scrollY - 100,
-            behavior: "smooth",
-          })
-        }
-      }
-    }
+  //     if (anchor && anchor.hash && anchor.hash.startsWith("#")) {
+  //       e.preventDefault()
+  //       const element = document.querySelector(anchor.hash)
+  //       if (element) {
+  //         window.scrollTo({
+  //           top: element.getBoundingClientRect().top + window.scrollY - 100,
+  //           behavior: "smooth",
+  //         })
+  //       }
+  //     }
+  //   }
 
-    document.addEventListener("click", handleAnchorClick)
-    return () => document.removeEventListener("click", handleAnchorClick)
-  }, [])
+  //   document.addEventListener("click", handleAnchorClick)
+  //   return () => document.removeEventListener("click", handleAnchorClick)
+  // }, [])
 
   return (
     <>
@@ -58,8 +68,8 @@ We help digital teams enhance product performance, streamline workflows, and dri
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Digital Transformation"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -80,8 +90,8 @@ Our systems help airlines and aerospace companies improve safety, reduce downtim
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Aerospace"
             reverse={true}
-            buttonText="See Demo"
-            buttonLink="/contact-us"
+            // buttonText="See Demo"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -101,8 +111,8 @@ We work with institutions to modernize legacy systems, integrate smart technolog
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Finance"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -123,8 +133,8 @@ Our solutions also extend to life sciences companies, enabling faster research c
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Healthcare"
             reverse={true}
-            buttonText="Explore Solutions"
-            buttonLink="/contact-us"
+            // buttonText="Explore Solutions"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -144,8 +154,8 @@ We support field operations with real-time analytics and remote monitoring, ensu
 "
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Energy"
-            buttonText="Learn More"
-            buttonLink="/contact-us"
+            // buttonText="Learn More"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -166,8 +176,8 @@ Whether in traditional education or online learning environments, our solutions 
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Education"
             reverse={true}
-            buttonText="See Demo"
-            buttonLink="/contact-us"
+            // buttonText="See Demo"
+            // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -181,7 +191,7 @@ Whether in traditional education or online learning environments, our solutions 
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
             <Link href="/contact-us" className="btn-primary">
-              Contact Sales
+              Contact Us
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"

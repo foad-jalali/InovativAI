@@ -69,7 +69,7 @@ export default function FaqClient() {
         showLogos={false}
       /> */}
 
-            <section className="section-padding">
+            <section className="section-padding mt-10">
                 <div className="container-custom">
                     <SectionHeading
                         title="Common Questions"
