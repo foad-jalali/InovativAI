@@ -42,7 +42,7 @@ export default function SoftwareEngineeringPage() {
     <>
       <HeroSection
         title="Software Engineering & Development"
-        backgroundImage="/homehero.jpg"
+        backgroundImage="/se.png"
         alt=""
         subtitle="Build robust, scalable software solutions with our expert engineering and development services."
         primaryButtonText="Get Started"
@@ -65,7 +65,7 @@ Architect the future with robust structures and smart patterns."
             description={
               <>
                 <p>
-                Software architecture defines the structure and foundation of any software system. At InovativAi, we help businesses design architecture that supports scalability, maintainability, and performance. Our architectural solutions are tailored to project size, complexity, and long-term goals.
+                Software architecture defines the structure and foundation of any software system. At InovativAI, we help businesses design architecture that supports scalability, maintainability, and performance. Our architectural solutions are tailored to project size, complexity, and long-term goals.
 
                 </p>
                 <br />
@@ -101,7 +101,7 @@ From code to delivery, we build solutions that last."
                 </p>
                 <br />
                 <p>
-                At InovativAi, we ensure that each solution is efficient, robust, and aligned with user needs and technical constraints. Our engineering process is transparent and collaborative, enabling teams to deliver reliable systems that evolve with business demands.
+                At InovativAI, we ensure that each solution is efficient, robust, and aligned with user needs and technical constraints. Our engineering process is transparent and collaborative, enabling teams to deliver reliable systems that evolve with business demands.
 
                 </p>
               </>
@@ -159,7 +159,7 @@ Precision, performance, and control — from microchips to machines."
             description={
               <>
                 <p>
-                Embedded software powers many modern devices, from IoT sensors to medical equipment. At InovativAi, we provide embedded software design solutions that combine efficiency, performance, and reliability.
+                Embedded software powers many modern devices, from IoT sensors to medical equipment. At InovativAI, we provide embedded software design solutions that combine efficiency, performance, and reliability.
 
                 </p>
                 <br />
@@ -263,7 +263,7 @@ Where usability meets inclusivity for maximum impact."
             description={
               <>
                 <p>
-                User experience and accessibility are essential for adoption and usability. At InovativAi, our UX Design and Accessibility solutions focus on creating intuitive, inclusive, and user-friendly software interfaces.
+                User experience and accessibility are essential for adoption and usability. At InovativAI, our UX Design and Accessibility solutions focus on creating intuitive, inclusive, and user-friendly software interfaces.
 
                 </p>
                 <br />

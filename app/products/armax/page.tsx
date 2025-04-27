@@ -7,7 +7,7 @@ import { generateMetadata } from "@/components/seo";
 
 export const metadata: Metadata = generateMetadata({
   title: "ArMax | InovativAI",
-  description: "ArMax by InovativAi is an AI-driven IFE system featuring Nexora Assistant and a partner platform for smart, scalable, and immersive air travel.",
+  description: "ArMax by InovativAI is an AI-driven IFE system featuring Nexora Assistant and a partner platform for smart, scalable, and immersive air travel.",
   url: "https://inovativai.com/",
   image: "/images/og-home.jpg",
   keywords: "ArMax IFE System, AI-Driven In-Flight Entertainment, Nexora AI Assistant, Connected IFE Platform, Smart IFE Architecture, In-Flight Connectivity",
@@ -18,8 +18,8 @@ export default function ArmaxPage() {
       <HeroSection
         title="ArMax: AI-Driven IFE System for the Future of Connected In-Flight Experience"
         backgroundImage="/armax.jpg"
-        alt=""
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+        alt="armax"
+        subtitle="Transforming In-Flight Entertainment with Smart, Personalized, and Seamlessly Connected Experiences"
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"
         secondaryButtonText="Learn More"
@@ -31,7 +31,7 @@ export default function ArmaxPage() {
         <div className="container-custom">
           <SectionHeading
             title="ArMax Features"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Discover the Advanced Features Powering Tomorrow’s Smart In-Flight Experiences"
           />
         </div>
       </section>

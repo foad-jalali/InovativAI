@@ -43,7 +43,7 @@ export default function DevOpsPage() {
     <>
       <HeroSection
         title="DevOps & Project Delivery"
-        backgroundImage="/homehero.jpg"
+        backgroundImage="/devops.png"
         alt=""
         subtitle="Streamline your development process and accelerate project delivery with our DevOps solutions."
         primaryButtonText="Get Started"
@@ -66,7 +66,7 @@ Build faster, more reliably, and with greater confidence."
             description={
               <>
                 <p>
-                DevOps bridges the gap between development and operations, enabling faster and more stable software delivery. At InovativAi, our DevOps solutions focus on automation, monitoring, integration, and continuous deployment to support agile and scalable development environments.
+                DevOps bridges the gap between development and operations, enabling faster and more stable software delivery. At InovativAI, our DevOps solutions focus on automation, monitoring, integration, and continuous deployment to support agile and scalable development environments.
 
                 </p>
                 <br />
@@ -105,7 +105,7 @@ Align teams, accelerate delivery, and boost customer satisfaction."
                 </p>
                 <br />
                 <p>
-                InovativAi provides guidance on project planning, sprint management, and task tracking to ensure that teams stay focused and aligned. We support a results-driven approach that enhances communication, adapts to change, and delivers continuous value to end users.
+                InovativAI provides guidance on project planning, sprint management, and task tracking to ensure that teams stay focused and aligned. We support a results-driven approach that enhances communication, adapts to change, and delivers continuous value to end users.
 
                 </p>
               </>

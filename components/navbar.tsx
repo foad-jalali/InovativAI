@@ -177,7 +177,7 @@ const Navbar = () => {
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Industries</NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <ul className="grid w-[400px] bg-black gap-3 p-4">
+                    <ul className="grid bg-black gap-3 p-6 md:w-[500px] lg:w-[600px] lg:grid-cols-2">
                       <li>
                         <NavigationMenuLink asChild>
                           <Link
@@ -187,6 +187,9 @@ const Navbar = () => {
                             <div className="text-sm font-medium leading-none">
                               Technology and Digital Innovation
                             </div>
+                            <p className="line-clamp-2 text-sm leading-snug text-white/70">
+                              AI, Cloud, and Emerging Tech for Smarter Businesses
+                            </p>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -199,6 +202,9 @@ const Navbar = () => {
                             <div className="text-sm font-medium leading-none">
                               Aviation & Aerospace
                             </div>
+                            <p className="line-clamp-2 text-sm leading-snug text-white/70">
+                              AI-Driven Flight Experience and Operations
+                            </p>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -211,6 +217,9 @@ const Navbar = () => {
                             <div className="text-sm font-medium leading-none">
                               Finance & Banking
                             </div>
+                            <p className="line-clamp-2 text-sm leading-snug text-white/70">
+                              Smart Solutions for Risk, Compliance, and Customer Engagement
+                            </p>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -223,6 +232,9 @@ const Navbar = () => {
                             <div className="text-sm font-medium leading-none">
                               Healthcare & Life Sciences
                             </div>
+                            <p className="line-clamp-2 text-sm leading-snug text-white/70">
+                              Advanced Tech for Better Diagnostics and Patient Care
+                            </p>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -235,6 +247,9 @@ const Navbar = () => {
                             <div className="text-sm font-medium leading-none">
                               Energy and Oil & Gas
                             </div>
+                            <p className="line-clamp-2 text-sm leading-snug text-white/70">
+                              Digital Tools for Exploration, Production, and Sustainability
+                            </p>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -247,6 +262,9 @@ const Navbar = () => {
                             <div className="text-sm font-medium leading-none">
                               Education & e-Learning
                             </div>
+                            <p className="line-clamp-2 text-sm leading-snug text-white/70">
+                              Next-Gen Platforms for Personalized Learning
+                            </p>
                           </Link>
                         </NavigationMenuLink>
                       </li>
@@ -255,21 +273,21 @@ const Navbar = () => {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
-                  <Link href="/about-us" legacyBehavior passHref>
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                    >
-                      About Us
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-
-                <NavigationMenuItem>
                   <Link href="/blog" legacyBehavior passHref>
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
                       Blog
+                    </NavigationMenuLink>
+                  </Link>
+                </NavigationMenuItem>
+
+                <NavigationMenuItem>
+                  <Link href="/about-us" legacyBehavior passHref>
+                    <NavigationMenuLink
+                      className={navigationMenuTriggerStyle()}
+                    >
+                      About Us
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>

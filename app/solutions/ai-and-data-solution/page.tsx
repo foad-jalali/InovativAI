@@ -43,7 +43,7 @@ export default function AiAndDataSolutionPage() {
     <>
       <HeroSection
         title="AI & Data Solutions"
-        backgroundImage="/homehero.jpg"
+        backgroundImage="/data-solution.png"
         alt=""
         subtitle="Harness the power of artificial intelligence and data science to drive innovation and growth."
         primaryButtonText="Get Started"
@@ -69,7 +69,7 @@ From prediction to automation, we fuel smarter decisions."
             description={
               <>
               <p>
-              Artificial Intelligence and Data Science are core pillars of our approach to digital transformation. At InovativAi, we provide AI & Data Science solutions that help businesses collect, process, and understand vast amounts of data. Our expertise lies in designing AI strategies that align with organizational goals and leveraging data science techniques to uncover insights that matter.
+              Artificial Intelligence and Data Science are core pillars of our approach to digital transformation. At InovativAI, we provide AI & Data Science solutions that help businesses collect, process, and understand vast amounts of data. Our expertise lies in designing AI strategies that align with organizational goals and leveraging data science techniques to uncover insights that matter.
 
               </p>
               <br />
@@ -163,7 +163,7 @@ Unify, process, and operationalize data with confidence."
             description={
               <>
               <p>
-              A strong data foundation is essential for any successful AI initiative. At InovativAi, our AI Data Platform solutions help organizations build the infrastructure needed to manage and scale their data workflows. We guide clients in setting up centralized, secure, and high-performance environments that support data ingestion, processing, and analysis.
+              A strong data foundation is essential for any successful AI initiative. At InovativAI, our AI Data Platform solutions help organizations build the infrastructure needed to manage and scale their data workflows. We guide clients in setting up centralized, secure, and high-performance environments that support data ingestion, processing, and analysis.
 
               </p>
               <br />
@@ -195,7 +195,7 @@ Turn insights into action and strategy into success."
             description={
               <>
               <p>
-              Our Business Intelligence (BI) solutions are designed to transform raw data into powerful strategic insights that drive better decision-making. At InovativAi, we collaborate closely with clients to build comprehensive BI frameworks that encompass dynamic dashboards, advanced visual analytics, and real-time performance tracking. These tools empower organizations to analyze complex information quickly, spot trends and opportunities, and make informed decisions with speed and confidence.
+              Our Business Intelligence (BI) solutions are designed to transform raw data into powerful strategic insights that drive better decision-making. At InovativAI, we collaborate closely with clients to build comprehensive BI frameworks that encompass dynamic dashboards, advanced visual analytics, and real-time performance tracking. These tools empower organizations to analyze complex information quickly, spot trends and opportunities, and make informed decisions with speed and confidence.
 
               </p>
               <br />

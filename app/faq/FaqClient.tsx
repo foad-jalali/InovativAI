@@ -7,35 +7,35 @@ import SectionHeading from "@/components/section-heading";
 export default function FaqClient() {
     const faqItems = [
         {
-            question: "What is InovativAi?",
-            answer: "InovativAi is a technology company specializing in AI-driven solutions for aviation, cloud, data, and software engineering."
+            question: "What is InovativAI?",
+            answer: "InovativAI is a technology company specializing in AI-driven solutions for aviation, cloud, data, and software engineering."
         },
         {
-            question: "What industries does InovativAi serve?",
+            question: "What industries does InovativAI serve?",
             answer: "We primarily focus on aviation but also offer Technology and Digital Innovation, Aviation & Aerospace, Finance & Banking, Healthcare & Life Sciences, Energy and Oil & Gas, Education & e-Learning and software engineering solutions across industries."
         },
         {
-            question: "What AI products has InovativAi developed for aviation?",
+            question: "What AI products has InovativAI developed for aviation?",
             answer: "Our products include ArMax, an AI-powered In-Flight Entertainment system, and Nexora, an AI assistant enhancing passenger experiences."
         },
         {
-            question: "Does InovativAi provide custom AI solutions?",
+            question: "Does InovativAI provide custom AI solutions?",
             answer: "Yes, we offer tailored AI, machine learning, and data analytics solutions to meet specific business needs and drive smarter decisions."
         },
         {
-            question: "What cloud services does InovativAi offer?",
+            question: "What cloud services does InovativAI offer?",
             answer: "We help businesses with cloud migration, data center design, AI hardware strategies, and performance optimization."
         },
         {
-            question: "What software engineering services are available at InovativAi?",
+            question: "What software engineering services are available at InovativAI?",
             answer: "We provide software architecture design, embedded development, testing, secure development, UX/UI design, and implementation services."
         },
         {
-            question: "How does InovativAi ensure security in its solutions?",
+            question: "How does InovativAI ensure security in its solutions?",
             answer: "Security is integral to all our solutions, from secure software practices to robust cloud infrastructures and AI system protections."
         },
         {
-            question: "Can InovativAi help with real-time air data analytics and predictive maintenance?",
+            question: "Can InovativAI help with real-time air data analytics and predictive maintenance?",
             answer: "Yes, we are expanding into real-time air data analytics, predictive maintenance, and operational optimization for aviation."
         },
         {
@@ -43,7 +43,7 @@ export default function FaqClient() {
             answer: "Nexora is currently under development, designed to deliver personalized, multilingual, and accessible in-flight experiences."
         },
         {
-            question: "How can businesses partner with InovativAi?",
+            question: "How can businesses partner with InovativAI?",
             answer: "Businesses can connect with us through our website to discuss customized solutions, partnerships, or schedule a consultation."
         }
     ];
@@ -69,7 +69,7 @@ export default function FaqClient() {
         showLogos={false}
       /> */}
 
-            <section className="section-padding mt-10">
+            <section className="section-padding mt-24">
                 <div className="container-custom">
                     <SectionHeading
                         title="Common Questions"

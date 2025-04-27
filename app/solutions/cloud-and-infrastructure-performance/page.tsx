@@ -42,7 +42,7 @@ export default function CloudInfrastructurePage() {
     <>
       <HeroSection
         title="Cloud, Infrastructure & Performance"
-        backgroundImage="/homehero.jpg"
+        backgroundImage="/cloud.png"
         alt=""
         subtitle="Optimize your infrastructure and leverage cloud technologies for maximum performance and scalability."
         primaryButtonText="Get Started"
@@ -65,7 +65,7 @@ Empower your business with on-demand infrastructure and global reach."
             description={
               <>
                 <p>
-                Cloud computing enables flexible, on-demand access to computing resources. At InovativAi, we offer cloud solutions that support migration, architecture planning, and cloud-native development. Our focus is on helping businesses adopt the cloud in a way that improves scalability, reduces operational costs, and increases agility.
+                Cloud computing enables flexible, on-demand access to computing resources. At InovativAI, we offer cloud solutions that support migration, architecture planning, and cloud-native development. Our focus is on helping businesses adopt the cloud in a way that improves scalability, reduces operational costs, and increases agility.
 
                 </p>
                 <br />
@@ -99,7 +99,7 @@ Drive agility, intelligence, and resilience across your IT ecosystem."
             description={
               <>
                 <p>
-                AI, cloud, and data center technologies are increasingly interconnected. At InovativAi, we design integrated solutions that bring these elements together to support smart, data-driven operations. Our strategies ensure seamless data flow, compute optimization, and AI readiness across all platforms.
+                AI, cloud, and data center technologies are increasingly interconnected. At InovativAI, we design integrated solutions that bring these elements together to support smart, data-driven operations. Our strategies ensure seamless data flow, compute optimization, and AI readiness across all platforms.
 
                 </p>
                 <br />
@@ -134,7 +134,7 @@ Future-ready architecture, optimized for power, cooling, and scalability."
             description={
               <>
                 <p>
-                Modern data centers must support high availability, energy efficiency, and future scalability. InovativAi offers data center design and implementation solutions that align with the specific needs of each business. From layout and power management to cooling and network infrastructure, we provide complete design strategies.
+                Modern data centers must support high availability, energy efficiency, and future scalability. InovativAI offers data center design and implementation solutions that align with the specific needs of each business. From layout and power management to cooling and network infrastructure, we provide complete design strategies.
 
                 </p>
                 <br />
@@ -165,7 +165,7 @@ Built for speed, precision, and enterprise-grade performance."
             description={
               <>
                 <p>
-                GPU and AI hardware are essential for accelerating high-compute tasks such as machine learning, deep learning, and large-scale data processing. At InovativAi, we help businesses design infrastructure strategies that include the right hardware stack for their AI goals.
+                GPU and AI hardware are essential for accelerating high-compute tasks such as machine learning, deep learning, and large-scale data processing. At InovativAI, we help businesses design infrastructure strategies that include the right hardware stack for their AI goals.
 
                 </p>
                 <br />
@@ -197,7 +197,7 @@ Maximize computational power for research, analytics, and AI."
             description={
               <>
                 <p>
-                High-Performance Computing (HPC) supports complex simulations, modeling, and real-time analytics. InovativAi delivers HPC solutions that combine processing power, data throughput, and reliability to meet the most demanding workloads.
+                High-Performance Computing (HPC) supports complex simulations, modeling, and real-time analytics. InovativAI delivers HPC solutions that combine processing power, data throughput, and reliability to meet the most demanding workloads.
 
                 </p>
                 <br />

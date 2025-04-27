@@ -6,6 +6,7 @@ import "aos/dist/aos.css"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import Script from "next/script"
+import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${inter.className} bg-black text-white min-h-screen flex flex-col`}>
+        <Toaster position="bottom-right" reverseOrder={false} />
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />

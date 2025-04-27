@@ -7,7 +7,7 @@ import { generateMetadata } from "@/components/seo";
 
 export const metadata: Metadata = generateMetadata({
   title: "Nexora | InovativAI",
-  description: "Nexora by InovativAi is a next-gen AI IFE Assistant delivering personalized, multilingual, voice-enabled, and accessible experiences in-flight.",
+  description: "Nexora by InovativAI is a next-gen AI IFE Assistant delivering personalized, multilingual, voice-enabled, and accessible experiences in-flight.",
   url: "https://inovativai.com/",
   image: "/images/og-home.jpg",
   keywords: "Nexora IFE AI Assistant, In-Flight AI Entertainment System, Personalized Passenger Experience, Cabin Crew Messaging Tools, Bilingual IFE Support, Speech-to-Text for Airlines, Accessibility in IFE Systems, Intelligent App Recommendations for Flights",
@@ -17,7 +17,7 @@ export default function NexoraPage() {
     <>
       <HeroSection
         title="Nexora: Next-Generation Data Processing"
-        backgroundImage="/homehero.jpg"
+        backgroundImage="/nexora.jpg"
         alt=""
         subtitle="Nexora is InovativAi’s next-gen IFE AI Assistant, built to personalize and enhance in-flight experiences with multilingual support, voice, and smart entertainment."
         primaryButtonText="Get Started"
@@ -31,7 +31,7 @@ export default function NexoraPage() {
         <div className="container-custom">
           <SectionHeading
             title="Nexora Features"
-            subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet."
+            subtitle="Explore the Intelligent Capabilities That Redefine In-Flight Interaction and Personalization"
           />
         </div>
       </section>

@@ -30,13 +30,13 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
     if (!post) {
         return {
-            title: "Post Not Found | InovativAi Blog",
+            title: "Post Not Found | InovativAI Blog",
             description: "The blog post you're looking for was not found.",
         };
     }
 
     return {
-        title: `${post.title} | InovativAi Blog`,
+        title: `${post.title} | InovativAI Blog`,
         description: post.short_description,
     };
 }
@@ -55,17 +55,22 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
     return (
         <>
-            <HeroSection
-                title={post.title}
-                subtitle={post.short_description}
-                backgroundImage="/homehero.jpg"
-                alt={post.title}
-            />
-
             <div className="container-custom pt-32 pb-16">
+                <h1 className="flex flex-wrap gap-2 mb-4 mt-10">{post.title}</h1>
                 <p className="text-gray-400 mb-2">{formatDate(post.created_at)}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                    {post.tags?.map((tag: string, index: number) => (
+                        <span
+                            key={index}
+                            className="px-3 py-1 text-sm bg-purple-800/20 text-purple-300 rounded-full"
+                        >
+                            {tag}
+                        </span>
+                    ))}
+                </div>
+
                 <div
-                    className="container mx-auto px-4 md:px-8 pt-10 pb-16 rounded-lg bg-white/5 border border-white/10 text-gray-300 [&>p]:leading-8 [&>h2]:mt-10 [&>h2]:mb-6 [&>h3]:mt-8 [&>h3]:mb-4 [&>img]:mx-auto [&>img]:my-8 [&>ul]:list-disc [&>ul]:pl-6 [&>ul>li]:mb-2"
+                    className="container mx-auto px-4 md:px-8 pt-10 pb-16 rounded-lg text-gray-300 [&>p]:leading-8 [&>h2]:mt-10 [&>h2]:mb-6 [&>h3]:mt-8 [&>h3]:mb-4 [&>img]:mx-auto [&>img]:my-8 [&>ul]:list-disc [&>ul]:pl-6 [&>ul>li]:mb-2"
                     dangerouslySetInnerHTML={{ __html: post.description }}
                 />
             </div>

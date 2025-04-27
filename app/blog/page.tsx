@@ -9,11 +9,11 @@ import { promises as fs } from "fs";
 
 
 export const metadata: Metadata = generateMetadata({
-  title: "Blog | InovativAi",
+  title: "Blog | InovativAI",
   description: "Stay updated with the latest articles, insights, and trends in AI, aviation technology, cloud solutions, data analytics, and software innovation.",
   url: "https://inovativai.com/blog",
   image: "/images/og-home.jpg",
-  keywords: "InovativAi Blog, AI Insights, Aviation Technology News, Cloud Computing Trends, Data Analytics Updates, Software Innovation, Industry News, Tech Articles",
+  keywords: "InovativAI Blog, AI Insights, Aviation Technology News, Cloud Computing Trends, Data Analytics Updates, Software Innovation, Industry News, Tech Articles",
 });
 export async function getBlogPosts() {
   const filePath = path.join(process.cwd(), "db", "blogPost.json");
@@ -37,7 +37,7 @@ export default async function BlogPage() {
         showLogos={false}
       /> */}
 
-      <section id="blog-posts" className="section-padding mt-10">
+      <section id="blog-posts" className="section-padding mt-24">
         <div className="container-custom">
           <SectionHeading
             title="Latest Articles"
@@ -59,31 +59,33 @@ export default async function BlogPage() {
                     className="w-full aspect-video object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                 </div>
-                <div className="p-6">
-                  <p className="text-purple-400 text-sm mb-2">{post.date}</p>
-                  <h3 className="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">{post.title}</h3>
-                  <p className="text-base text-gray-400 mb-2 group-hover:text-purple-400 transition-colors">
-                    {post.short_description}
-                  </p>
-                  <p className="text-gray-300 mb-4">{post.excerpt}</p>
-                  <Link href={`/blog/${post.slug}`} className="text-purple-400 hover:text-purple-300 inline-flex items-center">
-                    Read More
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-4 w-4 ml-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                    </svg>
-                  </Link>
-                </div>
+                <Link href={`/blog/${post.slug}`} className="block group">
+                  <div className="p-6 cursor-pointer">
+                    <p className="text-purple-400 text-sm mb-2">{post.date}</p>
+                    <h3 className="text-xl font-bold mb-2 group-hover:text-purple-400 transition-colors">{post.title}</h3>
+                    <p className="text-base text-gray-400 mb-2 group-hover:text-purple-400 transition-colors">
+                      {post.short_description}
+                    </p>
+                    <p className="text-gray-300 mb-4">{post.excerpt}</p>
+                    <span className="text-purple-400 hover:text-purple-300 inline-flex items-center">
+                      Read More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 ml-2"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </span>
+                  </div>
+                </Link>
               </div>
             ))}
           </div>
 
-          <div className="flex justify-center mt-12" data-aos="fade-up">
+          {/* <div className="flex justify-center mt-12" data-aos="fade-up">
             <Link href="#" className="btn-primary">
               View All Articles
               <svg
@@ -96,38 +98,34 @@ export default async function BlogPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </Link>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <section className="section-padding bg-gradient-to-b from-purple-900/20 to-transparent">
         <div className="container-custom">
           <SectionHeading
-            title="Subscribe to Our Newsletter"
-            subtitle="Stay updated with our latest articles, insights, and news."
+            title="Learn More About Us"
+            subtitle="Find out how our vision, expertise, and solutions are shaping the future."
           />
 
-          <div className="max-w-xl mx-auto" data-aos="fade-up">
-            <form className="flex flex-col sm:flex-row gap-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-grow px-4 py-3 bg-black/30 backdrop-blur-sm border border-white/10 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
-                required
-              />
-              <button type="submit" className="btn-primary whitespace-nowrap">
-                Subscribe
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-2"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-              </button>
-            </form>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
+            <Link href="/contact-us" className="btn-primary">
+              Contact Us
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </Link>
+
+            <Link href="/about-us" className="btn-secondary">
+              About Us
+            </Link>
           </div>
         </div>
       </section>

@@ -10,7 +10,7 @@ import { generateMetadata } from "@/components/seo"
 
 export const metadata: Metadata = generateMetadata({
   title: "Industries We Serve | InovativAI",
-  description: "Discover how InovativAi delivers digital and data-driven solutions across industries, driving innovation and solving real business challenges.",
+  description: "Discover how InovativAI delivers digital and data-driven solutions across industries, driving innovation and solving real business challenges.",
   url: "https://inovativai.com/industries",
   image: "/images/og-home.jpg",
   keywords: "Digital Solutions for Industries, Technology Consulting, Innovation in Aviation, Healthcare Digital Transformation, Financial Software Solutions, Education Technology Services, Data-Driven Business Strategies",
@@ -42,8 +42,8 @@ export default function IndustriesPage() {
   return (
     <>
       <HeroSection
-        title="Industries We Serve at InovativAi"
-        backgroundImage="Industries We Serve"
+        title="Industries We Serve at InovativAI"
+        backgroundImage="/industry.png"
         alt="Industries We Serve"
         subtitle="Tailored solutions for diverse industries, leveraging our expertise to address unique challenges."
         primaryButtonText="Get Started"
@@ -66,7 +66,7 @@ Shape the future with solutions designed for a digital world."
             description={
               <>
                 <p>
-                  In the fast-paced world of technology, staying ahead requires more than just tools—it takes adaptable strategies and well-engineered systems. At InovativAi, we provide custom digital solutions for tech companies and digital innovators. Our services range from building scalable cloud infrastructure to implementing secure platforms and data-centric applications.
+                  In the fast-paced world of technology, staying ahead requires more than just tools—it takes adaptable strategies and well-engineered systems. At InovativAI, we provide custom digital solutions for tech companies and digital innovators. Our services range from building scalable cloud infrastructure to implementing secure platforms and data-centric applications.
 
                 </p>
                 <br />
@@ -97,7 +97,7 @@ Innovation that propels safety, efficiency, and exploration."
             description={
               <>
                 <p>
-                  Originally rooted in the aviation industry, InovativAi has deep experience solving complex challenges in air travel and aerospace operations. We offer solutions for predictive maintenance, passenger experience optimization, real-time data processing, and operational efficiency.
+                  Originally rooted in the aviation industry, InovativAI has deep experience solving complex challenges in air travel and aerospace operations. We offer solutions for predictive maintenance, passenger experience optimization, real-time data processing, and operational efficiency.
 
                 </p>
                 <br />
@@ -129,7 +129,7 @@ Empowering trust, speed, and growth in a digital economy."
             description={
               <>
                 <p>
-                  The finance industry requires precision, compliance, and real-time responsiveness. At InovativAi, we deliver data and software solutions that enhance fraud detection, automate risk analysis, and streamline customer interactions in banking and financial services.
+                  The finance industry requires precision, compliance, and real-time responsiveness. At InovativAI, we deliver data and software solutions that enhance fraud detection, automate risk analysis, and streamline customer interactions in banking and financial services.
 
                 </p>
                 <br />
@@ -160,7 +160,7 @@ Better outcomes, powered by technology and compassion."
             description={
               <>
                 <p>
-                  In healthcare and life sciences, accuracy and data security are critical. InovativAi delivers intelligent digital solutions that support medical research, patient care, and operational efficiency. We help healthcare providers leverage data analytics for better diagnoses, personalized care, and resource planning.
+                  In healthcare and life sciences, accuracy and data security are critical. InovativAI delivers intelligent digital solutions that support medical research, patient care, and operational efficiency. We help healthcare providers leverage data analytics for better diagnoses, personalized care, and resource planning.
 
                 </p>
                 <br />
@@ -192,7 +192,7 @@ Innovative solutions for a dynamic, resource-driven world."
             description={
               <>
                 <p>
-                  The energy sector faces increasing pressure to operate efficiently and sustainably. At InovativAi, we offer digital and data-driven solutions that help companies in oil, gas, and renewables monitor performance, predict equipment failures, and optimize energy usage.
+                  The energy sector faces increasing pressure to operate efficiently and sustainably. At InovativAI, we offer digital and data-driven solutions that help companies in oil, gas, and renewables monitor performance, predict equipment failures, and optimize energy usage.
 
                 </p>
                 <br />
@@ -223,7 +223,7 @@ Empowering minds anytime, anywhere."
             description={
               <>
                 <p>
-                  Digital transformation is reshaping how education is delivered. At InovativAi, we provide solutions that enhance digital learning platforms, personalize student experiences, and support institutional analytics. We help educators track progress, improve content delivery, and make informed decisions.
+                  Digital transformation is reshaping how education is delivered. At InovativAI, we provide solutions that enhance digital learning platforms, personalize student experiences, and support institutional analytics. We help educators track progress, improve content delivery, and make informed decisions.
 
                 </p>
                 <br />
@@ -245,8 +245,8 @@ Empowering minds anytime, anywhere."
       <section className="section-padding bg-gradient-to-b from-purple-900/20 to-transparent">
         <div className="container-custom">
           <SectionHeading
-            title="Ready to transform your industry?"
-            subtitle="Contact our team today to discuss how our industry-specific solutions can help you achieve your goals."
+            title="Discover how technology is transforming your industry."
+            subtitle="Visit our blog for expert articles, case studies, and the latest trends."
           />
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
@@ -263,8 +263,8 @@ Empowering minds anytime, anywhere."
               </svg>
             </Link>
 
-            <Link href="/about-us" className="btn-secondary">
-              Learn About Us
+            <Link href="/blog" className="btn-secondary">
+              Read Our Blog
             </Link>
           </div>
         </div>

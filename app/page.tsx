@@ -73,7 +73,7 @@ export default function Home() {
         description={
           <>
             <p>
-              ArMax by InovativAi is a next-generation AI-driven IFE system built to transform the passenger experience. With modular architecture, real-time connectivity, and AI-powered personalization, ArMax delivers fast, intuitive, and immersive services onboard. Designed for scalability and future aviation needs, it offers airlines a powerful, secure, and intelligent digital ecosystem.
+              ArMax by InovativAI is a next-generation AI-driven IFE system built to transform the passenger experience. With modular architecture, real-time connectivity, and AI-powered personalization, ArMax delivers fast, intuitive, and immersive services onboard. Designed for scalability and future aviation needs, it offers airlines a powerful, secure, and intelligent digital ecosystem.
             </p>
             <br />
             <p>
@@ -81,7 +81,7 @@ export default function Home() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/home1.png"
         imageAlt="AI Automation"
         buttonText="Read More"
         buttonLink="/products/armax"
@@ -93,7 +93,7 @@ export default function Home() {
         description={
           <>
             <p>
-              Nexora by InovativAi is a next-generation AI assistant designed to revolutionize how passengers and cabin crews engage with in-flight entertainment systems. Built for personalization, accessibility, and intelligent communication, Nexora delivers features like PNR-based customization, multilingual support, voice-to-text messaging, smart chatbot assistance, and dynamic app recommendations. Whether it’s offering a smooth onboarding experience, enabling real-time crew communication, or providing accessible services like text-to-speech, Nexora ensures every passenger feels connected, supported, and valued throughout their journey. Designed with flexibility and user experience at its core, Nexora brings a human touch to the digital skies.
+              Nexora by InovativAI is a next-generation AI assistant designed to revolutionize how passengers and cabin crews engage with in-flight entertainment systems. Built for personalization, accessibility, and intelligent communication, Nexora delivers features like PNR-based customization, multilingual support, voice-to-text messaging, smart chatbot assistance, and dynamic app recommendations. Whether it’s offering a smooth onboarding experience, enabling real-time crew communication, or providing accessible services like text-to-speech, Nexora ensures every passenger feels connected, supported, and valued throughout their journey. Designed with flexibility and user experience at its core, Nexora brings a human touch to the digital skies.
             </p>
             <br />
             <p>
@@ -101,7 +101,7 @@ export default function Home() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/home33.png"
         imageAlt="Enterprise Security"
         reverse={true}
         buttonText="Read More"
@@ -119,7 +119,7 @@ export default function Home() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/home3.png"
         imageAlt="Seamless Integration"
         buttonText="Read More"
         buttonLink="/blog"
@@ -136,7 +136,7 @@ export default function Home() {
             className="flex flex-col sm:flex-row justify-center items-center gap-4"
             data-aos="fade-up"
           >
-            <Link href="/contact-us" className="btn-primary bg-[#512feb00]">
+            <Link href="/contact-us" className="btn-primary">
               Get in touch
               <svg
                 xmlns="http://www.w3.org/2000/svg"
