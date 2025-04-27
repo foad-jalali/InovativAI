@@ -16,7 +16,7 @@ export const metadata: Metadata = generateMetadata({
   keywords: "Digital Solutions for Industries, Technology Consulting, Innovation in Aviation, Healthcare Digital Transformation, Financial Software Solutions, Education Technology Services, Data-Driven Business Strategies",
 });
 export default function IndustriesPage() {
-  
+
   // Handle smooth scrolling for anchor links
   // useEffect(() => {
   //   const handleAnchorClick = (e: MouseEvent) => {
@@ -63,13 +63,23 @@ Shape the future with solutions designed for a digital world."
 
           <FeatureSection
             title="Digital Transformation"
-            description="In the fast-paced world of technology, staying ahead requires more than just tools—it takes adaptable strategies and well-engineered systems. At InovativAi, we provide custom digital solutions for tech companies and digital innovators. Our services range from building scalable cloud infrastructure to implementing secure platforms and data-centric applications.
-We help digital teams enhance product performance, streamline workflows, and drive innovation through smart, efficient development and integration. Whether you're launching a new app, building a SaaS platform, or scaling an existing system, our solutions are designed to support sustainable growth and competitive advantage.
-"
+            description={
+              <>
+                <p>
+                  In the fast-paced world of technology, staying ahead requires more than just tools—it takes adaptable strategies and well-engineered systems. At InovativAi, we provide custom digital solutions for tech companies and digital innovators. Our services range from building scalable cloud infrastructure to implementing secure platforms and data-centric applications.
+
+                </p>
+                <br />
+                <p>
+                  We help digital teams enhance product performance, streamline workflows, and drive innovation through smart, efficient development and integration. Whether you're launching a new app, building a SaaS platform, or scaling an existing system, our solutions are designed to support sustainable growth and competitive advantage.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Digital Transformation"
-            // buttonText="Learn More"
-            // buttonLink="/contact-us"
+          // buttonText="Learn More"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -84,14 +94,24 @@ Innovation that propels safety, efficiency, and exploration."
 
           <FeatureSection
             title="Aviation & Aerospace Solutions"
-            description="Originally rooted in the aviation industry, InovativAi has deep experience solving complex challenges in air travel and aerospace operations. We offer solutions for predictive maintenance, passenger experience optimization, real-time data processing, and operational efficiency.
-Our systems help airlines and aerospace companies improve safety, reduce downtime, and enhance customer service. From in-flight services to flight data analysis, we bring intelligent automation and reliability to one of the world’s most dynamic industries.
-"
+            description={
+              <>
+                <p>
+                  Originally rooted in the aviation industry, InovativAi has deep experience solving complex challenges in air travel and aerospace operations. We offer solutions for predictive maintenance, passenger experience optimization, real-time data processing, and operational efficiency.
+
+                </p>
+                <br />
+                <p>
+                  Our systems help airlines and aerospace companies improve safety, reduce downtime, and enhance customer service. From in-flight services to flight data analysis, we bring intelligent automation and reliability to one of the world’s most dynamic industries.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Aerospace"
             reverse={true}
-            // buttonText="See Demo"
-            // buttonLink="/contact-us"
+          // buttonText="See Demo"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -106,13 +126,23 @@ Empowering trust, speed, and growth in a digital economy."
 
           <FeatureSection
             title="Financial Technology Solutions"
-            description="The finance industry requires precision, compliance, and real-time responsiveness. At InovativAi, we deliver data and software solutions that enhance fraud detection, automate risk analysis, and streamline customer interactions in banking and financial services.
-We work with institutions to modernize legacy systems, integrate smart technologies into daily operations, and improve decision-making through analytics and automation. Our solutions support secure digital transformation in a highly regulated environment, ensuring trust and operational excellence.
-"
+            description={
+              <>
+                <p>
+                  The finance industry requires precision, compliance, and real-time responsiveness. At InovativAi, we deliver data and software solutions that enhance fraud detection, automate risk analysis, and streamline customer interactions in banking and financial services.
+
+                </p>
+                <br />
+                <p>
+                  We work with institutions to modernize legacy systems, integrate smart technologies into daily operations, and improve decision-making through analytics and automation. Our solutions support secure digital transformation in a highly regulated environment, ensuring trust and operational excellence.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Finance"
-            // buttonText="Learn More"
-            // buttonLink="/contact-us"
+          // buttonText="Learn More"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -127,14 +157,24 @@ Better outcomes, powered by technology and compassion."
 
           <FeatureSection
             title="Healthcare Innovation"
-            description="In healthcare and life sciences, accuracy and data security are critical. InovativAi delivers intelligent digital solutions that support medical research, patient care, and operational efficiency. We help healthcare providers leverage data analytics for better diagnoses, personalized care, and resource planning.
-Our solutions also extend to life sciences companies, enabling faster research cycles, compliance with data privacy laws, and workflow automation. With a focus on ethical development and data protection, we bring innovation while maintaining trust and safety.
-"
+            description={
+              <>
+                <p>
+                  In healthcare and life sciences, accuracy and data security are critical. InovativAi delivers intelligent digital solutions that support medical research, patient care, and operational efficiency. We help healthcare providers leverage data analytics for better diagnoses, personalized care, and resource planning.
+
+                </p>
+                <br />
+                <p>
+                  Our solutions also extend to life sciences companies, enabling faster research cycles, compliance with data privacy laws, and workflow automation. With a focus on ethical development and data protection, we bring innovation while maintaining trust and safety.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Healthcare"
             reverse={true}
-            // buttonText="Explore Solutions"
-            // buttonLink="/contact-us"
+          // buttonText="Explore Solutions"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -149,13 +189,23 @@ Innovative solutions for a dynamic, resource-driven world."
 
           <FeatureSection
             title="Energy Sector Solutions"
-            description="The energy sector faces increasing pressure to operate efficiently and sustainably. At InovativAi, we offer digital and data-driven solutions that help companies in oil, gas, and renewables monitor performance, predict equipment failures, and optimize energy usage.
-We support field operations with real-time analytics and remote monitoring, ensuring safer and more cost-effective practices. Our solutions drive operational resilience and data-informed decision-making in one of the world’s most essential industries.
-"
+            description={
+              <>
+                <p>
+                  The energy sector faces increasing pressure to operate efficiently and sustainably. At InovativAi, we offer digital and data-driven solutions that help companies in oil, gas, and renewables monitor performance, predict equipment failures, and optimize energy usage.
+
+                </p>
+                <br />
+                <p>
+                  We support field operations with real-time analytics and remote monitoring, ensuring safer and more cost-effective practices. Our solutions drive operational resilience and data-informed decision-making in one of the world’s most essential industries.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Energy"
-            // buttonText="Learn More"
-            // buttonLink="/contact-us"
+          // buttonText="Learn More"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -170,14 +220,24 @@ Empowering minds anytime, anywhere."
 
           <FeatureSection
             title="Educational Technology"
-            description="Digital transformation is reshaping how education is delivered. At InovativAi, we provide solutions that enhance digital learning platforms, personalize student experiences, and support institutional analytics. We help educators track progress, improve content delivery, and make informed decisions.
-Whether in traditional education or online learning environments, our solutions support adaptive learning, content recommendation, and administrative automation. We enable a smarter, more accessible, and engaging future for learners and educators alike.
-"
+            description={
+              <>
+                <p>
+                  Digital transformation is reshaping how education is delivered. At InovativAi, we provide solutions that enhance digital learning platforms, personalize student experiences, and support institutional analytics. We help educators track progress, improve content delivery, and make informed decisions.
+
+                </p>
+                <br />
+                <p>
+                  Whether in traditional education or online learning environments, our solutions support adaptive learning, content recommendation, and administrative automation. We enable a smarter, more accessible, and engaging future for learners and educators alike.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Education"
             reverse={true}
-            // buttonText="See Demo"
-            // buttonLink="/contact-us"
+          // buttonText="See Demo"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>

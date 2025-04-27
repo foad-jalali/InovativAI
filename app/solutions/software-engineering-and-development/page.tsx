@@ -62,13 +62,23 @@ Architect the future with robust structures and smart patterns."
 
           <FeatureSection
             title="Scalable Architecture Design"
-            description="Software architecture defines the structure and foundation of any software system. At InovativAI, we help businesses design architecture that supports scalability, maintainability, and performance. Our architectural solutions are tailored to project size, complexity, and long-term goals.
-We work with organizations to define best-fit patterns and principles that guide development from the ground up. Whether it's monolithic, microservices, or event-driven architecture, our solutions ensure a strong technical foundation for sustainable growth.
-"
+            description={
+              <>
+                <p>
+                Software architecture defines the structure and foundation of any software system. At InovativAi, we help businesses design architecture that supports scalability, maintainability, and performance. Our architectural solutions are tailored to project size, complexity, and long-term goals.
+
+                </p>
+                <br />
+                <p>
+                We work with organizations to define best-fit patterns and principles that guide development from the ground up. Whether it's monolithic, microservices, or event-driven architecture, our solutions ensure a strong technical foundation for sustainable growth.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Architecture"
-            // buttonText="Learn More"
-            // buttonLink="/contact-us"
+          // buttonText="Learn More"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -83,14 +93,24 @@ From code to delivery, we build solutions that last."
 
           <FeatureSection
             title="Custom Software Development"
-            description="Our software engineering solutions focus on applying best practices, methodologies, and principles to software development. We support the full software lifecycle, from planning and design to coding and maintenance, using agile and DevOps-driven approaches.
-At InovativAI, we ensure that each solution is efficient, robust, and aligned with user needs and technical constraints. Our engineering process is transparent and collaborative, enabling teams to deliver reliable systems that evolve with business demands.
-"
+            description={
+              <>
+                <p>
+                Our software engineering solutions focus on applying best practices, methodologies, and principles to software development. We support the full software lifecycle, from planning and design to coding and maintenance, using agile and DevOps-driven approaches.
+
+                </p>
+                <br />
+                <p>
+                At InovativAi, we ensure that each solution is efficient, robust, and aligned with user needs and technical constraints. Our engineering process is transparent and collaborative, enabling teams to deliver reliable systems that evolve with business demands.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Engineering"
             reverse={true}
-            // buttonText="See Demo"
-            // buttonLink="/contact-us"
+          // buttonText="See Demo"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -105,13 +125,23 @@ Bringing ideas to life through precise and efficient deployment."
 
           <FeatureSection
             title="Efficient Implementation Strategies"
-            description="Implementation is where ideas become functional systems. Our software implementation solutions guide organizations through the deployment and integration of software applications into existing environments. We ensure seamless transitions with minimal disruption.
-Whether it's deploying a new platform or integrating with third-party tools, our team focuses on smooth rollouts, compatibility, and user adoption. Our goal is to help businesses realize value quickly and reliably.
-"
+            description={
+              <>
+                <p>
+                Implementation is where ideas become functional systems. Our software implementation solutions guide organizations through the deployment and integration of software applications into existing environments. We ensure seamless transitions with minimal disruption.
+
+                </p>
+                <br />
+                <p>
+                Whether it's deploying a new platform or integrating with third-party tools, our team focuses on smooth rollouts, compatibility, and user adoption. Our goal is to help businesses realize value quickly and reliably.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Software Implementation"
-            // buttonText="Learn More"
-            // buttonLink="/contact-us"
+          // buttonText="Learn More"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -126,14 +156,24 @@ Precision, performance, and control — from microchips to machines."
 
           <FeatureSection
             title="Embedded Software Design"
-            description="Embedded software powers many modern devices, from IoT sensors to medical equipment. At InovativAI, we provide embedded software design solutions that combine efficiency, performance, and reliability.
-We specialize in building software for resource-constrained environments where timing, stability, and precision are critical. Our solutions are tailor
-"
+            description={
+              <>
+                <p>
+                Embedded software powers many modern devices, from IoT sensors to medical equipment. At InovativAi, we provide embedded software design solutions that combine efficiency, performance, and reliability.
+
+                </p>
+                <br />
+                <p>
+                We specialize in building software for resource-constrained environments where timing, stability, and precision are critical. Our solutions are tailored to specific hardware and use cases, ensuring optimal performance and integration.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Web Development"
             reverse={true}
-            // buttonText="Explore Solutions"
-            // buttonLink="/contact-us"
+          // buttonText="Explore Solutions"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -151,13 +191,23 @@ Detect issues early, deliver confidently."
 
           <FeatureSection
             title="Software Testing and Quality Assurance"
-            description="Quality assurance is key to delivering reliable software. Our testing and QA solutions ensure that every system we support meets functional and non-functional requirements before going live. We use automated and manual testing methods to validate performance, usability, and security.
-From unit testing to system-level validation, our QA approach catches issues early and ensures continuous improvement. Our goal is to reduce risk, enhance user satisfaction, and support long-term maintainability.
-"
+            description={
+              <>
+                <p>
+                Quality assurance is key to delivering reliable software. Our testing and QA solutions ensure that every system we support meets functional and non-functional requirements before going live. We use automated and manual testing methods to validate performance, usability, and security.
+
+                </p>
+                <br />
+                <p>
+                From unit testing to system-level validation, our QA approach catches issues early and ensures continuous improvement. Our goal is to reduce risk, enhance user satisfaction, and support long-term maintainability.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Web Development"
-            // buttonText="Explore Solutions"
-            // buttonLink="/contact-us"
+          // buttonText="Explore Solutions"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -175,14 +225,24 @@ Secure by design, resilient by nature."
 
           <FeatureSection
             title="Software Security"
-            description="Security is a core aspect of all our development solutions. We offer software security solutions that identify, prevent, and mitigate vulnerabilities across the software lifecycle. Our team integrates secure coding practices, conducts threat modeling, and supports compliance with industry standards.
-Whether it's application-level protection or secure deployment practices, our approach ensures that security is embedded from the start, not bolted on later. We help clients build trust by protecting data and safeguarding systems.
-"
+            description={
+              <>
+                <p>
+                Security is a core aspect of all our development solutions. We offer software security solutions that identify, prevent, and mitigate vulnerabilities across the software lifecycle. Our team integrates secure coding practices, conducts threat modeling, and supports compliance with industry standards.
+
+                </p>
+                <br />
+                <p>
+                Whether it's application-level protection or secure deployment practices, our approach ensures that security is embedded from the start, not bolted on later. We help clients build trust by protecting data and safeguarding systems.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Web Development"
             reverse={true}
-            // buttonText="Explore Solutions"
-            // buttonLink="/contact-us"
+          // buttonText="Explore Solutions"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>
@@ -200,13 +260,23 @@ Where usability meets inclusivity for maximum impact."
 
           <FeatureSection
             title="User-Centered Design"
-            description="User experience and accessibility are essential for adoption and usability. At InovativAI, our UX Design and Accessibility solutions focus on creating intuitive, inclusive, and user-friendly software interfaces.
-We design experiences that cater to all users, including those with disabilities, ensuring compliance with accessibility standards. Our UX process involves research, prototyping, and iterative feedback to deliver designs that are both functional and engaging.
-"
+            description={
+              <>
+                <p>
+                User experience and accessibility are essential for adoption and usability. At InovativAi, our UX Design and Accessibility solutions focus on creating intuitive, inclusive, and user-friendly software interfaces.
+
+                </p>
+                <br />
+                <p>
+                We design experiences that cater to all users, including those with disabilities, ensuring compliance with accessibility standards. Our UX process involves research, prototyping, and iterative feedback to deliver designs that are both functional and engaging.
+
+                </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="UI/UX Design"
-            // buttonText="Learn More"
-            // buttonLink="/contact-us"
+          // buttonText="Learn More"
+          // buttonLink="/contact-us"
           />
         </div>
       </section>

@@ -66,9 +66,19 @@ From prediction to automation, we fuel smarter decisions."
 
           <FeatureSection
             title="Custom AI Solutions"
-            description="Artificial Intelligence and Data Science are core pillars of our approach to digital transformation. At InovativAI, we provide AI & Data Science solutions that help businesses collect, process, and understand vast amounts of data. Our expertise lies in designing AI strategies that align with organizational goals and leveraging data science techniques to uncover insights that matter.
-By working closely with clients, we deliver solutions that automate decision-making, reveal trends, and improve forecasting. Whether optimizing processes or discovering new market opportunities, our AI and Data Science solutions empower businesses to make smarter, data-driven decisions.
-"
+            description={
+              <>
+              <p>
+              Artificial Intelligence and Data Science are core pillars of our approach to digital transformation. At InovativAi, we provide AI & Data Science solutions that help businesses collect, process, and understand vast amounts of data. Our expertise lies in designing AI strategies that align with organizational goals and leveraging data science techniques to uncover insights that matter.
+
+              </p>
+              <br />
+              <p>
+              By working closely with clients, we deliver solutions that automate decision-making, reveal trends, and improve forecasting. Whether optimizing processes or discovering new market opportunities, our AI and Data Science solutions empower businesses to make smarter, data-driven decisions.
+
+              </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="AI Solutions"
             // buttonText="Learn More"
@@ -90,9 +100,18 @@ Transform complexity into real-world impact with scalable ML solutions."
 
           <FeatureSection
             title="Predictive Analytics"
-            description="Our Machine Learning solutions are built to adapt and evolve with your business. We develop and deploy custom ML models that learn from historical and real-time data, helping organizations improve accuracy and performance across different functions. From demand prediction to fraud detection, our ML solutions deliver reliable outcomes.
-InovativAI applies machine learning in areas like personalization, predictive analytics, and process automation. These models are integrated seamlessly into your systems, providing consistent value and continuous improvement over time.
-"
+            description={
+              <>
+              <p>
+              Our Machine Learning solutions are built to adapt, evolve, and scale alongside your business goals. We specialize in developing and deploying custom ML models that leverage both historical and real-time data, empowering organizations to enhance accuracy, optimize performance, and drive smarter decision-making across various functions. Whether it’s forecasting demand, detecting fraud, or uncovering hidden patterns, our ML solutions are designed to deliver reliable, actionable outcomes that create real business impact.
+
+              </p>
+              <br />
+              <p>
+              At InovativAI, we apply machine learning across critical areas such as personalization, predictive analytics, risk management, and process automation. Our models are engineered for seamless integration into your existing systems, ensuring a smooth transition and immediate operational value. Beyond deployment, our ML solutions continue to learn and improve over time, providing organizations with a dynamic, continuously evolving asset that supports innovation, efficiency, and competitive advantage in a rapidly changing digital landscape.
+              </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Predictive Analytics"
             reverse={true}
@@ -112,9 +131,17 @@ Balancing innovation and compliance in every algorithm."
 
           <FeatureSection
             title="Secure AI Implementation"
-            description="In an age of increasing data usage, our AI Security and Privacy solutions ensure that your data remains protected and compliant. We focus on embedding security within AI workflows, using intelligent systems that monitor threats, detect anomalies, and respond in real time.
-We also prioritize privacy by design, helping organizations adopt responsible AI practices. Our solutions support privacy regulations, ethical AI use, and risk mitigation strategies to safeguard both organizational data and customer trust.
-"
+            description={
+              <>
+              <p>
+              In today’s digital era where data usage is growing exponentially, securing information has never been more critical. At InovativAI, our AI Security and Privacy solutions are designed to ensure that your data remains not only protected but also fully compliant with evolving regulations. We embed security directly into the core of AI workflows, utilizing intelligent systems that continuously monitor for threats, detect anomalies before they escalate, and initiate real-time responses to mitigate risks. By integrating advanced protection mechanisms from the ground up, we help organizations create resilient environments where innovation can thrive without compromising on safety.
+              </p>
+              <br />
+              <p>
+              Beyond safeguarding systems, we champion a “privacy by design” approach — embedding privacy considerations into every layer of AI development and deployment. We empower organizations to adopt responsible, ethical AI practices that respect user data and maintain regulatory compliance. Our solutions align with major privacy frameworks such as GDPR, HIPAA, and emerging AI governance standards, helping businesses mitigate risks while fostering greater customer trust. With InovativAI, you don't just implement AI — you implement it securely, ethically, and with the confidence that privacy is a foundational pillar, not an afterthought.
+              </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="AI Security"
             // buttonText="Learn More"
@@ -133,9 +160,19 @@ Unify, process, and operationalize data with confidence."
 
           <FeatureSection
             title="Scalable Data Infrastructure"
-            description="A strong data foundation is essential for any successful AI initiative. At InovativAI, our AI Data Platform solutions help organizations build the infrastructure needed to manage and scale their data workflows. We guide clients in setting up centralized, secure, and high-performance environments that support data ingestion, processing, and analysis.
-Our platforms enable efficient collaboration between teams and systems, ensuring that the right data is available when needed. With real-time capabilities and cloud scalability, we support the full data lifecycle required for modern AI projects.
-"
+            description={
+              <>
+              <p>
+              A strong data foundation is essential for any successful AI initiative. At InovativAi, our AI Data Platform solutions help organizations build the infrastructure needed to manage and scale their data workflows. We guide clients in setting up centralized, secure, and high-performance environments that support data ingestion, processing, and analysis.
+
+              </p>
+              <br />
+              <p>
+              Our platforms enable efficient collaboration between teams and systems, ensuring that the right data is available when needed. With real-time capabilities and cloud scalability, we support the full data lifecycle required for modern AI projects.
+
+              </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Data Platforms"
             reverse={true}
@@ -155,9 +192,19 @@ Turn insights into action and strategy into success."
 
           <FeatureSection
             title="Data-Driven Decision Making"
-            description="Our Business Intelligence solutions turn data into strategic insights. At InovativAI, we work with clients to develop BI frameworks that include dashboards, visual analytics, and performance tracking. These tools help organizations make informed decisions quickly and confidently.
-By integrating data from multiple sources, we provide a holistic view of business operations. Our BI solutions are user-friendly, interactive, and tailored to deliver insights that support growth and operational excellence.
-"
+            description={
+              <>
+              <p>
+              Our Business Intelligence (BI) solutions are designed to transform raw data into powerful strategic insights that drive better decision-making. At InovativAi, we collaborate closely with clients to build comprehensive BI frameworks that encompass dynamic dashboards, advanced visual analytics, and real-time performance tracking. These tools empower organizations to analyze complex information quickly, spot trends and opportunities, and make informed decisions with speed and confidence.
+
+              </p>
+              <br />
+              <p>
+              By integrating and harmonizing data from multiple sources, we create a unified, holistic view of business operations, giving leaders the clarity needed to optimize strategies and resource allocation. Our BI solutions are user-friendly, highly interactive, and fully customizable to meet the specific needs of each organization. With intuitive interfaces and actionable insights, we help businesses foster a culture of data-driven excellence, improve operational efficiency, and unlock sustainable growth in an increasingly competitive landscape.
+
+              </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Business Intelligence"
             // buttonText="Learn More"
@@ -176,9 +223,19 @@ Data-driven decisions start with deep and dynamic analysis."
 
           <FeatureSection
             title="Advanced Analytics Solutions"
-            description="InovativAI’s Data Analytics solutions help organizations make sense of complex data. We offer end-to-end analytics capabilities, from data cleaning and transformation to visualization and interpretation. Our approach enables businesses to identify trends, monitor key metrics, and uncover areas for improvement.
-With our analytics services, clients gain the ability to forecast outcomes, evaluate performance, and support continuous innovation. We make analytics accessible and actionable, helping businesses at any stage of their data journey.
-"
+            description={
+              <>
+              <p>
+              InovativAi’s Data Analytics solutions help organizations make sense of complex data. We offer end-to-end analytics capabilities, from data cleaning and transformation to visualization and interpretation. Our approach enables businesses to identify trends, monitor key metrics, and uncover areas for improvement.
+
+              </p>
+              <br />
+              <p>
+              With our analytics services, clients gain the ability to forecast outcomes, evaluate performance, and support continuous innovation. We make analytics accessible and actionable, helping businesses at any stage of their data journey.
+
+              </p>
+              </>
+            }
             imageSrc="/placeholder.svg?height=1080&width=1920"
             imageAlt="Data Analytics"
             reverse={true}
