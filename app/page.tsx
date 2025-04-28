@@ -21,7 +21,33 @@ export default function Home() {
         subtitle="InovativAI is a cutting-edge technology company specializing in artificial intelligence solutions tailored for the aviation industry. By harnessing the power of AI, InovativAI enhances passenger experiences, optimizes flight operations, and revolutionizes it through advanced smart solutions and tools."
         backgroundImage="/homehero.jpg"
         alt="hero-image"
-      />
+        primaryButtonText="Contact Us"
+        primaryButtonLink="/contact-us"
+      >
+        <div
+          className="mt-6 flex justify-start"
+          data-aos="fade-up"
+        >
+          <Link href="/about-us" className="btn-primary flex items-center">
+            About Us
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 ml-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
+            </svg>
+          </Link>
+        </div>
+      </HeroSection>
+
 
       <section className="section-padding  h-screen bg-cover flex  relative bg-center">
         <Image

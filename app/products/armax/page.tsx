@@ -68,7 +68,7 @@ export default function ArmaxPage() {
             </ul>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/armax/1.webp"
         imageAlt="Workflow Automation"
         // buttonText="Learn More"
         // buttonLink="/contact-us"
@@ -84,7 +84,7 @@ export default function ArmaxPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/armax/2.webp"
         imageAlt="Analytics Dashboard"
         reverse={true}
         // buttonText="See Demo"
@@ -109,7 +109,7 @@ export default function ArmaxPage() {
           </>
 
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/armax/3.png"
         imageAlt="Enterprise Security"
         // buttonText="Learn About Security"
         // buttonLink="/contact-us"
@@ -128,7 +128,7 @@ export default function ArmaxPage() {
           </>
 
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/armax/4.jpg"
         imageAlt="Enterprise Security"
         reverse={true}
         // buttonText="Learn About Security"

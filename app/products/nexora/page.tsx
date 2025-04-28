@@ -49,7 +49,7 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/1.png"
         imageAlt="Data Processing"
         // buttonText="Learn More"
         // buttonLink="/contact-us"
@@ -70,7 +70,7 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/2.png"
         imageAlt="Integration Capabilities"
         reverse={true}
         // buttonText="Learn About Integrations"
@@ -91,7 +91,7 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/3.png"
         imageAlt="Integration Capabilities"
         // buttonText="Learn About Integrations"
         // buttonLink="/contact-us"
@@ -111,7 +111,7 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/4.png"
         imageAlt="Integration Capabilities"
         reverse={true}
         // buttonText="Learn About Integrations"
@@ -131,7 +131,7 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/5.png"
         imageAlt="Integration Capabilities"
         // buttonText="Learn About Integrations"
         // buttonLink="/contact-us"
@@ -151,8 +151,9 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/6.png"
         imageAlt="Integration Capabilities"
+        reverse={true}
         // buttonText="Learn About Integrations"
         // buttonLink="/contact-us"
       />
@@ -171,9 +172,8 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/7.png"
         imageAlt="Integration Capabilities"
-        reverse={true}
         // buttonText="Learn About Integrations"
         // buttonLink="/contact-us"
       />
@@ -191,8 +191,9 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/8.png"
         imageAlt="Integration Capabilities"
+        reverse={true}
         // buttonText="Learn About Integrations"
         // buttonLink="/contact-us"
       />
@@ -211,9 +212,8 @@ export default function NexoraPage() {
             </p>
           </>
         }
-        imageSrc="/placeholder.svg?height=1080&width=1920"
+        imageSrc="/nexora/9.png"
         imageAlt="Integration Capabilities"
-        reverse={true}
         // buttonText="Learn About Integrations"
         // buttonLink="/contact-us"
       />

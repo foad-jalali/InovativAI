@@ -1,6 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 import HeroSection from "@/components/hero-section";
+import SectionHeading from "@/components/section-heading";
+import Link from "next/link";
 
 function formatDate(dateString: string) {
     const date = new Date(dateString);
@@ -57,16 +59,23 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
         <>
             <div className="container-custom pt-32 pb-16">
                 <h1 className="flex flex-wrap gap-2 mb-4 mt-10">{post.title}</h1>
-                <p className="text-gray-400 mb-2">{formatDate(post.created_at)}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                    {post.tags?.map((tag: string, index: number) => (
-                        <span
-                            key={index}
-                            className="px-3 py-1 text-sm bg-purple-800/20 text-purple-300 rounded-full"
-                        >
-                            {tag}
-                        </span>
-                    ))}
+                <p className="flex flex-wrap gap-2 mb-4 mt-10">{post.short_description}</p>
+                <div className="flex flex-wrap items-center gap-2 mb-6 text-sm">
+                    <p className="text-gray-400 whitespace-nowrap">{formatDate(post.created_at)}</p>
+
+                    {post.tags && post.tags.length > 0 && (
+                        <>
+                            <span className="text-gray-600">|</span>
+                            {post.tags.map((tag: string, index: number) => (
+                                <span
+                                    key={index}
+                                    className="px-2 py-1 bg-purple-800/20 text-purple-300 rounded-full whitespace-nowrap"
+                                >
+                                    {tag}
+                                </span>
+                            ))}
+                        </>
+                    )}
                 </div>
 
                 <div
@@ -74,6 +83,33 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
                     dangerouslySetInnerHTML={{ __html: post.description }}
                 />
             </div>
+            <section className="section-padding bg-gradient-to-b from-purple-900/20 to-transparent">
+                <div className="container-custom">
+                    <SectionHeading
+                        title="Explore More Insights"
+                        subtitle="Dive deeper into our latest articles and discover how innovation is transforming industries worldwide."
+                    />
+
+                    <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
+                        <Link href="/contact-us" className="btn-primary">
+                            Contact Us
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="h-4 w-4 ml-2"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                            >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </Link>
+
+                        <Link href="/blog" className="btn-secondary">
+                            View All Articles
+                        </Link>
+                    </div>
+                </div>
+            </section>
         </>
     );
 }

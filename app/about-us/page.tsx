@@ -27,7 +27,7 @@ export default function AboutUsPage() {
         showLogos={false}
       />
 
-      <section className="section-padding">
+      <section className="section-padding mt-60">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-up">

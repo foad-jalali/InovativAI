@@ -79,7 +79,7 @@ From prediction to automation, we fuel smarter decisions."
               </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/ai-sol/1.png"
             imageAlt="AI Solutions"
             // buttonText="Learn More"
             // buttonLink="/contact-us"
@@ -112,7 +112,7 @@ Transform complexity into real-world impact with scalable ML solutions."
               </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/ai-sol/2.png"
             imageAlt="Predictive Analytics"
             reverse={true}
             // buttonText="See Demo"
@@ -173,7 +173,7 @@ Unify, process, and operationalize data with confidence."
               </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/ai-sol/4.png"
             imageAlt="Data Platforms"
             reverse={true}
             // buttonText="Explore Solutions"

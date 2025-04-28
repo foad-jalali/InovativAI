@@ -139,7 +139,7 @@ export default function CareerForm() {
                     </div>
                 </div>
             </section>
-
+            {/* 
             <section
                 id="application-form"
                 className="section-padding bg-gradient-to-b from-purple-900/20 to-transparent"
@@ -258,7 +258,30 @@ export default function CareerForm() {
                         </form>
                     </div>
                 </div>
+            </section> */}
+
+            <section
+                id="application-form"
+                className="section-padding bg-gradient-to-b from-purple-900/20 to-transparent"
+            >
+                <div className="container-custom">
+                    <SectionHeading
+                        title="Join InovativAI and Build the Future"
+                        subtitle="We're looking for talented individuals. Apply now and become part of a team shaping tomorrow's technology."
+                    />
+
+                    <div className="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up">
+                        <Link href="mailto:contact@inovativai.com" className="btn-primary">
+                            Send Resume
+                        </Link>
+
+                        {/* <Link href="mailto:careers@inovativai.com" className="btn-secondary">
+                            Send Resume
+                        </Link> */}
+                    </div>
+                </div>
             </section>
+
         </>
     );
 }

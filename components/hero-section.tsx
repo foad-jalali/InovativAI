@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ReactNode } from "react";
 
 interface HeroSectionProps {
   title: string;
@@ -11,6 +12,7 @@ interface HeroSectionProps {
   showPartnerBadge?: boolean;
   showLogos?: boolean;
   backgroundImage: string;
+  children?: ReactNode;
   alt: string
 }
 
@@ -25,6 +27,7 @@ const HeroSection = ({
   showLogos = true,
   backgroundImage,
   alt,
+  children
 }: HeroSectionProps) => {
   return (
     <section className="relative min-h-screen flex items-center pt-24 pb-16">
@@ -50,7 +53,7 @@ const HeroSection = ({
         )} */}
 
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight max-w-4xl mb-6 text-left"
+          className="text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight max-w-3xl mb-6 text-left"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -64,13 +67,13 @@ const HeroSection = ({
         >
           {subtitle}
         </p>
-
-        <div
+        {children}
+        {/* <div
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          {/* <Link href={primaryButtonLink} className="btn-primary">
+          <Link href={primaryButtonLink} className="btn-primary">
             {primaryButtonText}
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -85,8 +88,8 @@ const HeroSection = ({
 
           <Link href={secondaryButtonLink} className="btn-secondary">
             {secondaryButtonText}
-          </Link> */}
-        </div>
+          </Link>
+        </div> */}
 
         {/* {showLogos && (
           <div
