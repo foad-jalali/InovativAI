@@ -87,7 +87,7 @@ export default function CareerForm() {
             showLogos={false}
           /> */}
 
-            <section id="open-positions" className="section-padding mt-24">
+            <section id="open-positions" className="section-padding">
                 <div className="container-custom">
                     <SectionHeading
                         title="Join Our Team"

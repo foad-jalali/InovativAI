@@ -37,7 +37,7 @@ export default async function BlogPage() {
         showLogos={false}
       /> */}
 
-      <section id="blog-posts" className="section-padding mt-24">
+      <section id="blog-posts" className="section-padding">
         <div className="container-custom">
           <SectionHeading
             title="Latest Articles"
