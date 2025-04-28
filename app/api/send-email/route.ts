@@ -6,18 +6,18 @@ export async function POST(req: Request) {
     const { firstName, lastName, email, message } = await req.json();
 
     const transporter = nodemailer.createTransport({
-      host: "sandbox.smtp.mailtrap.io",
+      host: "smtp.zohocloud.ca",
       port: 587,
       secure: false,
       auth: {
-        user: "b735069224cd43",
-        pass: "60159a6ed78579",
+        user: "contact@inovativai.com",
+        pass: "z8*asPafst.##!.}w",
       },
     });
 
     await transporter.sendMail({
       from: `"${firstName} ${lastName}" <${email}>`,
-      to: "info@yourdomain.com",
+      to: "contact@inovativai.com",
       subject: `New Contact Message`,
       html: `
         <h2>New Contact Request</h2>

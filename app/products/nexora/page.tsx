@@ -16,7 +16,7 @@ export default function NexoraPage() {
   return (
     <>
       <HeroSection
-        title="Nexora: Next-Generation Data Processing"
+        title="Nexora: Next-Generation IFE AI Assistant"
         backgroundImage="/nexora.jpg"
         alt=""
         subtitle="Nexora is InovativAi’s next-gen IFE AI Assistant, built to personalize and enhance in-flight experiences with multilingual support, voice, and smart entertainment."
