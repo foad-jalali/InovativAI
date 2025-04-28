@@ -52,7 +52,7 @@ export default function SoftwareEngineeringPage() {
         showLogos={false}
       />
 
-      <section id="software-architecture" className="section-padding pt-32">
+      <section id="software-architecture" className="section-padding pt-32 mt-20">
         <div className="container-custom">
           <SectionHeading
             title="Software Architecture"

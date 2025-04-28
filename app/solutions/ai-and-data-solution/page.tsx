@@ -57,7 +57,7 @@ export default function AiAndDataSolutionPage() {
         id="artificial-intelligence-and-data-science"
         className="section-padding pt-32"
       >
-        <div className="container-custom">
+        <div className="container-custom mt-20">
           <SectionHeading
             title="Artificial Intelligence & Data Science"
             subtitle="Unlock the power of AI to turn data into actionable insights.

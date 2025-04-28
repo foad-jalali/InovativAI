@@ -27,7 +27,7 @@ export default function NexoraPage() {
         showLogos={false}
       />
 
-      <section id="features" className="section-padding">
+      <section id="features" className="section-padding mt-24">
         <div className="container-custom">
           <SectionHeading
             title="Nexora Features"

@@ -27,7 +27,7 @@ export default function ArmaxPage() {
         showLogos={false}
       />
 
-      <section id="features" className="section-padding">
+      <section id="features" className="section-padding mt-20">
         <div className="container-custom">
           <SectionHeading
             title="ArMax Features"

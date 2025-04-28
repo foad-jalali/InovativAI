@@ -53,7 +53,7 @@ export default function IndustriesPage() {
         showLogos={false}
       />
 
-      <section id="technology-and-digital-innovation" className="section-padding pt-32">
+      <section id="technology-and-digital-innovation" className="section-padding pt-32 mt-24">
         <div className="container-custom">
           <SectionHeading
             title="Technology and Digital Innovation"

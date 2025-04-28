@@ -53,7 +53,7 @@ export default function CloudInfrastructurePage() {
       />
 
       <section id="cloud-computing" className="section-padding pt-32">
-        <div className="container-custom">
+        <div className="container-custom mt-20">
           <SectionHeading
             title="Cloud Computing"
             subtitle="Scale seamlessly and innovate faster with secure, flexible cloud environments.
