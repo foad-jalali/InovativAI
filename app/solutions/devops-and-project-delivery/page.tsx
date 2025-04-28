@@ -76,7 +76,7 @@ Build faster, more reliably, and with greater confidence."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/devops-sol/1.png"
             imageAlt="CI/CD"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -110,7 +110,7 @@ Align teams, accelerate delivery, and boost customer satisfaction."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/devops-sol/2.png"
             imageAlt="Agile Methodology"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
