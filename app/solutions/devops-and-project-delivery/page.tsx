@@ -53,7 +53,7 @@ export default function DevOpsPage() {
         showLogos={false}
       />
 
-      <section id="devops-solutions" className="section-padding pt-32">
+      <section id="devops-solutions" className="section-padding pt-32 mt-20">
         <div className="container-custom">
           <SectionHeading
             title="DevOps Solutions"
