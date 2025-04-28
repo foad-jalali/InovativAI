@@ -170,7 +170,7 @@ Better outcomes, powered by technology and compassion."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/industries/4.png"
             imageAlt="Healthcare"
             reverse={true}
           // buttonText="Explore Solutions"
@@ -202,7 +202,7 @@ Innovative solutions for a dynamic, resource-driven world."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/industries/5.png"
             imageAlt="Energy"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -233,7 +233,7 @@ Empowering minds anytime, anywhere."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/industries/6.png"
             imageAlt="Education"
             reverse={true}
           // buttonText="See Demo"
