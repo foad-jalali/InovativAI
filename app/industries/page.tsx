@@ -76,7 +76,7 @@ Shape the future with solutions designed for a digital world."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/industries/1.png"
             imageAlt="Digital Transformation"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -107,7 +107,7 @@ Innovation that propels safety, efficiency, and exploration."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/industries/2.png"
             imageAlt="Aerospace"
             reverse={true}
           // buttonText="See Demo"
@@ -139,7 +139,7 @@ Empowering trust, speed, and growth in a digital economy."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/industries/3.png"
             imageAlt="Finance"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
