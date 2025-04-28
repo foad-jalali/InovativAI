@@ -75,7 +75,7 @@ Architect the future with robust structures and smart patterns."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/1.png"
             imageAlt="Software Architecture"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -106,7 +106,7 @@ From code to delivery, we build solutions that last."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/2.png"
             imageAlt="Software Engineering"
             reverse={true}
           // buttonText="See Demo"
@@ -138,7 +138,7 @@ Bringing ideas to life through precise and efficient deployment."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/3.png"
             imageAlt="Software Implementation"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -169,7 +169,7 @@ Precision, performance, and control — from microchips to machines."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/4.png"
             imageAlt="Web Development"
             reverse={true}
           // buttonText="Explore Solutions"
@@ -204,7 +204,7 @@ Detect issues early, deliver confidently."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/5.png"
             imageAlt="Web Development"
           // buttonText="Explore Solutions"
           // buttonLink="/contact-us"
@@ -238,7 +238,7 @@ Secure by design, resilient by nature."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/6.png"
             imageAlt="Web Development"
             reverse={true}
           // buttonText="Explore Solutions"
@@ -273,7 +273,7 @@ Where usability meets inclusivity for maximum impact."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/soft-sol/7.png"
             imageAlt="UI/UX Design"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
