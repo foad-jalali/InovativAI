@@ -52,7 +52,7 @@ export default function ContactForm() {
     };
 
     return (
-        <section className="section-padding mt-24">
+        <section className="section-padding mt-16">
             <div className="container-custom">
                 <div className="grid md:grid-cols-2 gap-12">
 
