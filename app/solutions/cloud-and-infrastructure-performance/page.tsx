@@ -75,7 +75,7 @@ Empower your business with on-demand infrastructure and global reach."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/cloud-sol/1.png"
             imageAlt="Cloud Migration"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -109,7 +109,7 @@ Drive agility, intelligence, and resilience across your IT ecosystem."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/cloud-sol/2.png"
             imageAlt="AI Infrastructure"
             reverse={true}
           // buttonText="See Demo"
@@ -144,7 +144,7 @@ Future-ready architecture, optimized for power, cooling, and scalability."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/cloud-sol/3.png"
             imageAlt="Data Center"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
@@ -175,7 +175,7 @@ Built for speed, precision, and enterprise-grade performance."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/cloud-sol/4.png"
             imageAlt="GPU Hardware"
             reverse={true}
           // buttonText="Explore Solutions"
@@ -207,7 +207,7 @@ Maximize computational power for research, analytics, and AI."
                 </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/cloud-sol/5.png"
             imageAlt="HPC Solutions"
           // buttonText="Learn More"
           // buttonLink="/contact-us"
