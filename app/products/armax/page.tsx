@@ -68,7 +68,7 @@ export default function ArmaxPage() {
             </ul>
           </>
         }
-        imageSrc="/armax/1.webp"
+        imageSrc="/armax/1.png"
         imageAlt="Workflow Automation"
         // buttonText="Learn More"
         // buttonLink="/contact-us"
