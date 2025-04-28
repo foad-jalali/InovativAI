@@ -154,7 +154,7 @@ export default function Footer() {
               Address: 302 - 10650 113 Street NW, Edmonton, Alberta T5H 3H6, CA
             </p>
             <p className="text-gray-400 text-sm mb-2">
-              Email: info@inovativai.com
+              Email: contact@inovativai.com
             </p>
             <p className="text-gray-400 text-sm">Phone: +1-587-987-0697</p>
           </div>

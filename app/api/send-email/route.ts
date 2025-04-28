@@ -7,7 +7,7 @@ export async function POST(req: Request) {
   try {
     const { firstName, lastName, email, message } = await req.json();
 
-    const filePath = path.join(process.cwd(), 'templates', 'contact-template.html');
+    const filePath = path.join(process.cwd(), 'templates', 'contact-email.html');
     const htmlTemplateRaw = await readFile(filePath, 'utf8');
     
     const htmlTemplate = htmlTemplateRaw

@@ -185,7 +185,7 @@ export default function ContactForm() {
                                 </div>
                                 <div>
                                     <h3 className="text-lg font-semibold mb-1">Email</h3>
-                                    <p className="text-gray-300">info@inovativai.com</p>
+                                    <p className="text-gray-300">contact@inovativai.com</p>
                                 </div>
                             </div>
 
