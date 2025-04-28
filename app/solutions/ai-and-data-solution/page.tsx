@@ -142,7 +142,7 @@ Balancing innovation and compliance in every algorithm."
               </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/ai-sol/3.png"
             imageAlt="AI Security"
             // buttonText="Learn More"
             // buttonLink="/contact-us"
@@ -205,7 +205,7 @@ Turn insights into action and strategy into success."
               </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/ai-sol/5.png"
             imageAlt="Business Intelligence"
             // buttonText="Learn More"
             // buttonLink="/contact-us"
@@ -236,7 +236,7 @@ Data-driven decisions start with deep and dynamic analysis."
               </p>
               </>
             }
-            imageSrc="/placeholder.svg?height=1080&width=1920"
+            imageSrc="/ai-sol/6.png"
             imageAlt="Data Analytics"
             reverse={true}
             // buttonText="See Demo"
