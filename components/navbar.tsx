@@ -13,6 +13,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
+import { X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,12 +40,14 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
-        }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        scrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
+      }`}
     >
       <div className="container mx-auto px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
+
           <Link href="/" className="flex items-center space-x-2">
             <Image width={50} height={50} alt="logo" src="/logo.png" />
 
@@ -188,7 +191,8 @@ const Navbar = () => {
                               Technology and Digital Innovation
                             </div>
                             <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                              AI, Cloud, and Emerging Tech for Smarter Businesses
+                              AI, Cloud, and Emerging Tech for Smarter
+                              Businesses
                             </p>
                           </Link>
                         </NavigationMenuLink>
@@ -218,7 +222,8 @@ const Navbar = () => {
                               Finance & Banking
                             </div>
                             <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                              Smart Solutions for Risk, Compliance, and Customer Engagement
+                              Smart Solutions for Risk, Compliance, and Customer
+                              Engagement
                             </p>
                           </Link>
                         </NavigationMenuLink>
@@ -233,7 +238,8 @@ const Navbar = () => {
                               Healthcare & Life Sciences
                             </div>
                             <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                              Advanced Tech for Better Diagnostics and Patient Care
+                              Advanced Tech for Better Diagnostics and Patient
+                              Care
                             </p>
                           </Link>
                         </NavigationMenuLink>
@@ -248,7 +254,8 @@ const Navbar = () => {
                               Energy and Oil & Gas
                             </div>
                             <p className="line-clamp-2 text-sm leading-snug text-white/70">
-                              Digital Tools for Exploration, Production, and Sustainability
+                              Digital Tools for Exploration, Production, and
+                              Sustainability
                             </p>
                           </Link>
                         </NavigationMenuLink>
@@ -346,8 +353,9 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className={`lg:hidden flex flex-col space-y-1.5 z-50 ${isMenuOpen ? "hamburger-active" : ""
-              }`}
+            className={`lg:hidden flex flex-col space-y-1.5 z-50 ${
+              isMenuOpen ? "hamburger-active" : ""
+            }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -359,6 +367,12 @@ const Navbar = () => {
           {/* Mobile Menu */}
           <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
             <div className="p-8 h-full flex flex-col">
+              <button
+                onClick={() => setIsMenuOpen(false)}
+                className="absolute top-5 right-3 text-white"
+              >
+                <X />
+              </button>
               <div className="flex flex-col space-y-6 mt-16">
                 <Link
                   href="/"

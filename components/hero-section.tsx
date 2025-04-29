@@ -13,7 +13,7 @@ interface HeroSectionProps {
   showLogos?: boolean;
   backgroundImage: string;
   children?: ReactNode;
-  alt: string
+  alt: string;
 }
 
 const HeroSection = ({
@@ -27,14 +27,14 @@ const HeroSection = ({
   showLogos = true,
   backgroundImage,
   alt,
-  children
+  children,
 }: HeroSectionProps) => {
   return (
-    <section className="relative min-h-screen flex items-center pt-24 pb-16">
+    <section className="relative min-h-screen flex items-end md:items-center pt-24 pb-32">
       <Image
         alt={alt}
         src={backgroundImage}
-        className="w-screen absolute inset-0"
+        className="w-screen h-screen object-cover object-[75%_25%] absolute inset-0"
         width={100}
         height={100}
       />
@@ -53,7 +53,7 @@ const HeroSection = ({
         )} */}
 
         <h1
-          className="text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight max-w-3xl mb-6 text-left"
+          className="text-lg md:text-5xl lg:text-5xl xl:text-6xl font-bold leading-tight max-w-3xl mb-2 md:mb-6 text-left"
           data-aos="fade-up"
           data-aos-delay="200"
         >
@@ -61,68 +61,13 @@ const HeroSection = ({
         </h1>
 
         <p
-          className="text-lg md:text-xl text-gray-300 max-w-2xl mb-10 text-left"
+          className="text-sm md:text-xl text-gray-300 max-w-2xl mb-10 text-left"
           data-aos="fade-up"
           data-aos-delay="300"
         >
           {subtitle}
         </p>
         {children}
-        {/* <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
-          data-aos="fade-up"
-          data-aos-delay="400"
-        >
-          <Link href={primaryButtonLink} className="btn-primary">
-            {primaryButtonText}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4 ml-2"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </Link>
-
-          <Link href={secondaryButtonLink} className="btn-secondary">
-            {secondaryButtonText}
-          </Link>
-        </div> */}
-
-        {/* {showLogos && (
-          <div
-            className="flex flex-wrap justify-center items-center gap-8 md:gap-16"
-            data-aos="fade-up"
-            data-aos-delay="500"
-          >
-            <div className="opacity-60 hover:opacity-100 transition-opacity">
-              <Image
-                src="/placeholder.svg?height=40&width=120"
-                alt="Client Logo"
-                width={120}
-                height={40}
-              />
-            </div>
-            <div className="opacity-60 hover:opacity-100 transition-opacity">
-              <Image
-                src="/placeholder.svg?height=40&width=120"
-                alt="Client Logo"
-                width={120}
-                height={40}
-              />
-            </div>
-            <div className="opacity-60 hover:opacity-100 transition-opacity">
-              <Image
-                src="/placeholder.svg?height=40&width=120"
-                alt="Client Logo"
-                width={120}
-                height={40}
-              />
-            </div>
-          </div>
-        )} */}
       </div>
     </section>
   );
