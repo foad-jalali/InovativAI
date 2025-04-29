@@ -5,6 +5,13 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { generateMetadata } from "@/components/seo";
 
+const teamMembers = [
+  { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
+  { name: "Sarah Smith", role: "Product Manager", image: "/team/Sarah.jpg" },
+  { name: "Alex Doe", role: "UI/UX Designer", image: "/team/Alex.jpg" },
+];
+
+
 export const metadata: Metadata = generateMetadata({
   title: "About Us | InovativAI - Shaping the Future with AI and Innovation",
   description: "Learn about InovativAi’s mission to revolutionize industries with cutting-edge AI, cloud, data, and software engineering solutions.",
@@ -86,21 +93,19 @@ export default function AboutUsPage() {
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
             data-aos="fade-up"
           >
-            {[1, 2, 3, 4, 5, 6].map((item) => (
+            {teamMembers.map((member, index) => (
               <div
-                key={item}
+                key={index}
                 className="bg-black/30 backdrop-blur-sm border border-white/10 rounded-lg overflow-hidden"
               >
                 <img
-                  src="/placeholder.svg?height=400&width=400"
-                  alt={`Team Member ${item}`}
+                  src={member.image}
+                  alt={`Team Member ${member.name}`}
                   className="w-full aspect-square object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">John Doe</h3>
-                  <p className="text-purple-400 mb-4">
-                    Chief Technology Officer
-                  </p>
+                  <h3 className="text-xl font-bold mb-1">{member.name}</h3>
+                  <p className="text-purple-400 mb-4">{member.role}</p>
                   <p className="text-gray-300 text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean euismod bibendum laoreet.
@@ -109,6 +114,7 @@ export default function AboutUsPage() {
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
