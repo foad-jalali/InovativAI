@@ -6,7 +6,7 @@ import { Metadata } from "next";
 import { generateMetadata } from "@/components/seo";
 
 const teamMembers = [
-  { name: "Ali Akbarian", role: "Chief Executive Office", image: "/team/Akbarian.png" },
+  { name: "Ali Akbarian", role: "Chief Executive Officer", image: "/team/Akbarian.png" },
   { name: "Mehran Alidoost Nia", role: "Chief Product and Technology Officer", image: "/team/Mehran.png" },
   { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
   { name: "Ali Delavari", role: "Product Designer", image: "/team/Ali.png" },
