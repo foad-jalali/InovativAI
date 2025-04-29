@@ -7,6 +7,7 @@ import { generateMetadata } from "@/components/seo";
 
 const teamMembers = [
   { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
+  { name: "Ali Delavari", role: "Product Designer", image: "/team/Ali.png" },
 ];
 
 
@@ -104,10 +105,10 @@ export default function AboutUsPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                   <p className="text-purple-400 mb-4">{member.role}</p>
-                  <p className="text-gray-300 text-sm">
+                  {/* <p className="text-gray-300 text-sm">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Aenean euismod bibendum laoreet.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}
