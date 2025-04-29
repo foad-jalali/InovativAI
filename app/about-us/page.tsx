@@ -6,13 +6,13 @@ import { Metadata } from "next";
 import { generateMetadata } from "@/components/seo";
 
 const teamMembers = [
-  { name: "Ali Akbarian", role: "Chief Executive Office", image: "/team/Foad.jpg" },
+  { name: "Ali Akbarian", role: "Chief Executive Office", image: "/team/Akbarian.png" },
   { name: "Mehran Alidoost Nia", role: "Chief Product and Technology Officer", image: "/team/Mehran.png" },
   { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
   { name: "Ali Delavari", role: "Product Designer", image: "/team/Ali.png" },
-  { name: "Siavash Eghbal", role: "Software Engineer", image: "/team/Ali.png" },
-  { name: "Mohammad Reza Pirhooshyaran", role: "ML Engineer", image: "/team/Ali.png" },
-  { name: "Hora Haghighatkhah", role: "ML Engineer", image: "/team/Hora.png" },
+  { name: "Siavash Eghbal", role: "Software Engineer", image: "/team/Eghbal.png" },
+  { name: "Mohammad Reza Pirhooshyaran", role: "AI Engineer", image: "/team/Ali.png" },
+  { name: "Hora Haghighatkhah", role: "AI Engineer", image: "/team/Hora.png" },
   { name: "Fahimeh Khandan", role: "Software Engineer", image: "/team/Fahimeh.png" },
   { name: "Sara Sohrabi", role: "Product Designer", image: "/team/Sara.png" },
   { name: "Soroush Etasi", role: "Infra & DevOps Engineer", image: "/team/Sara.png" },
@@ -49,7 +49,7 @@ export default function AboutUsPage() {
             <div data-aos="fade-up">
               <SectionHeading
                 title="Our Mission"
-                subtitle="At InovativAI, our mission is to transform the aviation industry by embedding the power of advanced artificial intelligence into every touchpoint of the air travel experience. We are committed to enhancing operational efficiency, ensuring superior safety standards, and elevating the overall quality of air travel for passengers and industry stakeholders alike. Through our innovative AI-driven products—such as personalized in-flight entertainment systems and intelligent insuretech solutions tailored specifically for air travelers—we aim to redefine what is possible in aviation. By focusing on smart automation, predictive insights, and seamless experiences, we strive to empower airlines, airports, and aircraft manufacturers to achieve new heights of performance, reliability, and customer satisfaction. Our mission is not just to innovate for today, but to build a sustainable, smarter future for air travel worldwide."
+                subtitle="At InovativAI, our mission is to transform the aviation industry by embedding the power of advanced artificial intelligence into every touchpoint of the air travel experience. We are committed to enhancing operational efficiency, ensuring superior safety standards, and elevating the overall quality of air travel for passengers and industry stakeholders alike. Through our innovative AI-driven products—such as personalized in-flight entertainment systems and intelligent insuretech solutions tailored specifically for air travelers—we aim to redefine what is possible in aviation. By focusing on smart automation, predictive insights, and seaAIess experiences, we strive to empower airlines, airports, and aircraft manufacturers to achieve new heights of performance, reliability, and customer satisfaction. Our mission is not just to innovate for today, but to build a sustainable, smarter future for air travel worldwide."
                 centered={false}
               />
               {/* <p className="text-gray-300 mb-6">
