@@ -7,8 +7,6 @@ import { generateMetadata } from "@/components/seo";
 
 const teamMembers = [
   { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
-  { name: "Sarah Smith", role: "Product Manager", image: "/team/Sarah.jpg" },
-  { name: "Alex Doe", role: "UI/UX Designer", image: "/team/Alex.jpg" },
 ];
 
 
