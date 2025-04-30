@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Software Engineering & Development | InovativAI",
   description: "Explore InovativAi’s Software Engineering solutions, from architecture and testing to security and UX, helping businesses build scalable systems.",
   url: "https://inovativai.com/software-engineering-and-development",
-  image: "/images/og-home.jpg",
+  image: "/se.png",
   keywords: "Software Engineering Solutions, Custom Software Development, Software Architecture Design, Embedded Software Development, Software Testing Services, Secure Software Development, UX and Accessibility Design, Software Implementation Services",
 });
 export default function SoftwareEngineeringPage() {
@@ -43,7 +43,7 @@ export default function SoftwareEngineeringPage() {
       <HeroSection
         title="Software Engineering & Development"
         backgroundImage="/se.png"
-        alt=""
+        alt="Software Engineering & Development"
         subtitle="Build robust, scalable software solutions with our expert engineering and development services."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

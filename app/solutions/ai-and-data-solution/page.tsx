@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   title: "AI & Data Solutions | InovativAI",
   description: "Explore InovativAi’s AI & Data Solutions, empowering businesses with AI, machine learning, and data analytics to transform operations and decisions.",
   url: "https://inovativai.com/ai-and-data-solution",
-  image: "/images/og-home.jpg",
+  image: "/data-solution.png",
   keywords: "AI and Data Solutions, Artificial Intelligence Consulting, Machine Learning Services, AI Security Solutions, Business Intelligence Platforms, Data Science for Business, Predictive Analytics, AI Data Platforms",
 });
 export default function AiAndDataSolutionPage() {
@@ -44,7 +44,7 @@ export default function AiAndDataSolutionPage() {
       <HeroSection
         title="AI & Data Solutions"
         backgroundImage="/data-solution.png"
-        alt=""
+        alt="AI & Data Solutions"
         subtitle="Harness the power of artificial intelligence and data science to drive innovation and growth."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

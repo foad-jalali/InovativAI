@@ -24,6 +24,7 @@ export function generateMetadata({
   siteName = "InovativAI",
 }: SeoProps): Metadata {
   return {
+    metadataBase: new URL("https://inovativai.com"),
     title,
     description,
     keywords: keywords.split(", "),

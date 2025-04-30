@@ -25,7 +25,7 @@ export const metadata: Metadata = generateMetadata({
   title: "About Us | InovativAI - Shaping the Future with AI and Innovation",
   description: "Learn about InovativAi’s mission to revolutionize industries with cutting-edge AI, cloud, data, and software engineering solutions.",
   url: "https://inovativai.com/about-us",
-  image: "/images/og-home.jpg",
+  image: "/about.jpg",
   keywords: "About InovativAI, AI Solutions, Aviation Technology, Cloud Services, Data Analytics, Software Engineering, Innovation, Digital Transformation",
 });
 export default function AboutUsPage() {
@@ -39,7 +39,7 @@ export default function AboutUsPage() {
         secondaryButtonText="Our Solutions"
         secondaryButtonLink="/solutions/ai-and-data-solution"
         backgroundImage="/about.jpg"
-        alt=""
+        alt="About InovativAI"
         showLogos={false}
       />
 

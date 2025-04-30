@@ -9,7 +9,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Careers | InovativAI - Build the Future with AI Innovation",
   description: "Explore career opportunities at InovativAI. Join our team of innovators shaping the future of AI, aviation, cloud, data, and software solutions.",
   url: "https://inovativai.com/career",
-  image: "/images/og-home.jpg",
+  image: "/homehero.jpg",
   keywords: "InovativAI Careers, AI Jobs, Technology Careers, Software Engineering Jobs, Cloud Jobs, Data Analytics Careers, Work at InovativAI, AI Innovation Jobs",
 });
 

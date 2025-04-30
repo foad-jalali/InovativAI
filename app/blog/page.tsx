@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Blog | InovativAI",
   description: "Stay updated with the latest articles, insights, and trends in AI, aviation technology, cloud solutions, data analytics, and software innovation.",
   url: "https://inovativai.com/blog",
-  image: "/images/og-home.jpg",
+  image: "/homehero.jpg",
   keywords: "InovativAI Blog, AI Insights, Aviation Technology News, Cloud Computing Trends, Data Analytics Updates, Software Innovation, Industry News, Tech Articles",
 });
 export async function getBlogPosts() {

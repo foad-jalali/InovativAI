@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Industries We Serve | InovativAI",
   description: "Discover how InovativAI delivers digital and data-driven solutions across industries, driving innovation and solving real business challenges.",
   url: "https://inovativai.com/industries",
-  image: "/images/og-home.jpg",
+  image: "/industry.png",
   keywords: "Digital Solutions for Industries, Technology Consulting, Innovation in Aviation, Healthcare Digital Transformation, Financial Software Solutions, Education Technology Services, Data-Driven Business Strategies",
 });
 export default function IndustriesPage() {
@@ -44,7 +44,7 @@ export default function IndustriesPage() {
       <HeroSection
         title="Industries We Serve at InovativAI"
         backgroundImage="/industry.png"
-        alt="Industries We Serve"
+        alt="Industries We Serve at InovativAI"
         subtitle="Tailored solutions for diverse industries, leveraging our expertise to address unique challenges."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

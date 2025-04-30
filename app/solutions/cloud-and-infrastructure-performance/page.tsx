@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Cloud, Infrastructure & Performance | InovativAI",
   description: "Explore InovativAi’s Cloud, Infrastructure & Performance solutions to help businesses scale securely through cloud, data center, and AI hardware strategies.",
   url: "https://inovativai.com/cloud-and-infrastructure-performance",
-  image: "/images/og-home.jpg",
+  image: "/cloud.png",
   keywords: "Cloud Infrastructure Solutions, Data Center Design, GPU for AI Workloads, High-Performance Computing Services, Cloud Migration Consulting, AI and Cloud Integration, HPC Infrastructure, AI Hardware Optimization",
 });
 export default function CloudInfrastructurePage() {
@@ -43,7 +43,7 @@ export default function CloudInfrastructurePage() {
       <HeroSection
         title="Cloud, Infrastructure & Performance"
         backgroundImage="/cloud.png"
-        alt=""
+        alt="Cloud, Infrastructure & Performance"
         subtitle="Optimize your infrastructure and leverage cloud technologies for maximum performance and scalability."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

@@ -9,7 +9,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Nexora | InovativAI",
   description: "Nexora by InovativAI is a next-gen AI IFE Assistant delivering personalized, multilingual, voice-enabled, and accessible experiences in-flight.",
   url: "https://inovativai.com/",
-  image: "/images/og-home.jpg",
+  image: "/nexora.jpg",
   keywords: "Nexora IFE AI Assistant, In-Flight AI Entertainment System, Personalized Passenger Experience, Cabin Crew Messaging Tools, Bilingual IFE Support, Speech-to-Text for Airlines, Accessibility in IFE Systems, Intelligent App Recommendations for Flights",
 });
 export default function NexoraPage() {
@@ -18,7 +18,7 @@ export default function NexoraPage() {
       <HeroSection
         title="Nexora: Next-Generation IFE AI Assistant"
         backgroundImage="/nexora.jpg"
-        alt=""
+        alt="nexora"
         subtitle="Nexora is InovativAi’s next-gen IFE AI Assistant, built to personalize and enhance in-flight experiences with multilingual support, voice, and smart entertainment."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

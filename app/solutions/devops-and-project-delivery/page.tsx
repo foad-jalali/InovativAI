@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   title: "DevOps & Project Delivery | InovativAI",
   description: "Explore InovativAi’s DevOps & Project Delivery solutions that streamline development, boost team collaboration, and ensure agile, high-quality software delivery.",
   url: "https://inovativai.com/devops-and-project-delivery",
-  image: "/images/og-home.jpg",
+  image: "/devops.png",
   keywords: "DevOps Solutions, Agile Project Management, CI/CD Implementation, Project Delivery Services, DevOps Culture, Agile Development, Software Delivery Optimization",
 });
 export default function DevOpsPage() {
@@ -44,7 +44,7 @@ export default function DevOpsPage() {
       <HeroSection
         title="DevOps & Project Delivery"
         backgroundImage="/devops.png"
-        alt=""
+        alt="DevOps & Project Delivery"
         subtitle="Streamline your development process and accelerate project delivery with our DevOps solutions."
         primaryButtonText="Get Started"
         primaryButtonLink="/contact-us"

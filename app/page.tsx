@@ -10,7 +10,7 @@ export const metadata: Metadata = generateMetadata({
   title: "Home | InovativAI",
   description: "Leading AI solutions for the aviation industry.",
   url: "https://inovativai.com/",
-  image: "/images/og-home.jpg",
+  image: "/homehero.jpg",
   keywords: "AI, Aviation, Technology, Smart Solutions",
 });
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         title="Welcome to InovativAI"
         subtitle="InovativAI is a cutting-edge technology company specializing in artificial intelligence solutions tailored for the aviation industry. By harnessing the power of AI, InovativAI enhances passenger experiences, optimizes flight operations, and revolutionizes it through advanced smart solutions and tools."
         backgroundImage="/homehero.jpg"
-        alt="hero-image"
+        alt="Welcome to InovativAI"
         primaryButtonText="Contact Us"
         primaryButtonLink="/contact-us"
       >

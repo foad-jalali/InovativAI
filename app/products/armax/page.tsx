@@ -9,7 +9,7 @@ export const metadata: Metadata = generateMetadata({
   title: "ArMax | InovativAI",
   description: "ArMax by InovativAI is an AI-driven IFE system featuring Nexora Assistant and a partner platform for smart, scalable, and immersive air travel.",
   url: "https://inovativai.com/",
-  image: "/images/og-home.jpg",
+  image: "/armax.jpg",
   keywords: "ArMax IFE System, AI-Driven In-Flight Entertainment, Nexora AI Assistant, Connected IFE Platform, Smart IFE Architecture, In-Flight Connectivity",
 });
 export default function ArmaxPage() {

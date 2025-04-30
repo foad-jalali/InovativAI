@@ -40,6 +40,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: `${post.title} | InovativAI Blog`,
         description: post.short_description,
+        url: `https://inovativai.com/blog/${post.slug}`,
+        image: post.image || "/homehero.jpg",
     };
 }
 
