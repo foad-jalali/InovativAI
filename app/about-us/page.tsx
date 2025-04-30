@@ -11,7 +11,7 @@ const teamMembers = [
   { name: "Fahimeh Khandan", role: "Software Engineer", image: "/team/Fahimeh.png" },
   { name: "Sara Sohrabi", role: "Product Designer", image: "/team/Sara.png" },
   { name: "Siavash Eghbal", role: "Software Engineer", image: "/team/Eghbal.png" },
-  { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
+  { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.png" },
   { name: "Ali Delavari", role: "Product Designer", image: "/team/Ali.png" },
   { name: "Sanaz Sadeghi", role: "Graphic and Art Designer", image: "/team/Sanaz.png" },
   { name: "Mohammad Reza Pirhooshyaran", role: "AI Engineer", image: "/team/Mohammadreza.png" },
