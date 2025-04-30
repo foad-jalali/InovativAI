@@ -8,16 +8,16 @@ import { generateMetadata } from "@/components/seo";
 const teamMembers = [
   { name: "Ali Akbarian", role: "Chief Executive Officer", image: "/team/Akbarian.png" },
   { name: "Mehran Alidoost Nia", role: "Chief Product and Technology Officer", image: "/team/Mehran.png" },
-  { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
-  { name: "Ali Delavari", role: "Product Designer", image: "/team/Ali.png" },
-  { name: "Siavash Eghbal", role: "Software Engineer", image: "/team/Eghbal.png" },
-  { name: "Mohammad Reza Pirhooshyaran", role: "AI Engineer", image: "/team/Mohammadreza.png" },
-  { name: "Hora Haghighatkhah", role: "AI Engineer", image: "/team/Hora.png" },
   { name: "Fahimeh Khandan", role: "Software Engineer", image: "/team/Fahimeh.png" },
   { name: "Sara Sohrabi", role: "Product Designer", image: "/team/Sara.png" },
+  { name: "Siavash Eghbal", role: "Software Engineer", image: "/team/Eghbal.png" },
+  { name: "Foad Jalali", role: "Software Engineer", image: "/team/Foad.jpg" },
+  { name: "Ali Delavari", role: "Product Designer", image: "/team/Ali.png" },
+  { name: "Sanaz Sadeghi", role: "Graphic and Art Designer", image: "/team/Sanaz.png" },
+  { name: "Mohammad Reza Pirhooshyaran", role: "AI Engineer", image: "/team/Mohammadreza.png" },
   { name: "Soroush Etasi", role: "Infra & DevOps Engineer", image: "/team/Soroush.png" },
   { name: "Arman Cham Heidari", role: "Software Engineer", image: "/team/Arman.png" },
-  { name: "Sanaz Sadeghi", role: "Graphic and Art Designer", image: "/team/Sanaz.png" },
+  { name: "Hora Haghighatkhah", role: "AI Engineer", image: "/team/Hora.png" },
 ];
 
 
@@ -99,7 +99,7 @@ export default function AboutUsPage() {
           />
 
           <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
             data-aos="fade-up"
           >
             {teamMembers.map((member, index) => (
