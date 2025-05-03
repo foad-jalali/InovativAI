@@ -26,6 +26,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="google-site-verification" content="UL-gV3xS9c8ODgiaZK2xyekQZY0iB2LdKQv4x9XrrBU" />
       </head>
       <body className={`${inter.className} bg-black text-white min-h-screen flex flex-col`}>
         <Toaster position="bottom-right" reverseOrder={false} />
