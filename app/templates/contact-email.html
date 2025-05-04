@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header {
+            background-color: #512FEB;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header img {
+            height: 50px;
+        }
+
+        .body {
+            padding: 20px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: #512FEB;
+            color: white;
+            font-size: 13px;
+            font-family: Verdana, sans-serif;
+        }
+
+        .footer-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .footer-td {
+            padding: 20px;
+            vertical-align: top;
+        }
+
+        .footer-logo {
+            height: 55px;
+            margin-bottom: 15px;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons img {
+            display: block;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .stack-column {
+                display: block !important;
+                width: 100% !important;
+            }
+
+            .footer-logo {
+                display: block !important;
+                margin: 0 auto 15px auto !important;
+            }
+
+            .social-icons {
+                display: block !important;
+                margin: 0 auto !important;
+                text-align: center !important;
+            }
+
+            .social-icons table {
+                margin-left: auto !important;
+                margin-right: auto !important;
+                display: table !important;
+                text-align: center !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="header">
+            <img src="https://inovativai.com/logo.png" alt="InovativAI">
+        </div>
+
+        <!-- Body -->
+        <div class="body">
+            <h2>New Contact Request</h2>
+            <p><strong>Name:</strong> {{firstName}} {{lastName}}</p>
+            <p><strong>Email:</strong> {{email}}</p>
+            <p><strong>Message:</strong><br>{{message}}</p>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <table class="footer-table" role="presentation">
+                <tr>
+                    <!-- Left Column: Support Info -->
+                    <td class="footer-td stack-column" style="text-align: left; width: 60%;">
+                        <p style="margin: 0 0 10px;"><strong>Customer Support</strong></p>
+                        <p style="margin: 0;">Phone: +1 (587) 987-0697</p>
+                        <p style="margin: 0;">Email: <a href="mailto:contact@inovativai.com"
+                                style="color:#80cbc4; text-decoration: none;">contact@inovativai.com</a></p>
+                        <p style="margin: 10px 0 0;">Address: #302 - 10650 113 Street NW, Edmonton, <br>AB, Canada T5H
+                            3H6</p>
+                    </td>
+
+                    <!-- Right Column: Logo + Social Icons -->
+                    <td class="footer-td stack-column" style="text-align: center; width: 40%;">
+                        <img class="footer-logo" src="https://inovativai.com/logo.png" alt="InovativAI">
+                        <div class="social-icons">
+                            <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center"
+                                style="margin: 0 auto;">
+                                <tr>
+                                    <td style="padding: -4px 4px;">
+                                        <a href="https://www.linkedin.com/company/inovativai" target="_blank"
+                                            rel="noopener noreferrer" aria-label="LinkedIn">
+                                            <img src="https://inovativai.com/linkedin.png" alt="LinkedIn"
+                                                width="32" height="32" style="display: block;" />
+                                        </a>
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
